@@ -4,8 +4,8 @@ import React, { FC, ReactNode } from 'react';
 import { usePathname } from 'next/navigation';
 
 // Layouts
-import SiteLayout from '@/components/Layout/SiteLayout';
-import AppLayout from '@/components/Layout/AppLayout';
+import SiteLayout from '@/components/Site/SiteLayout';
+import AppLayout from '@/components/App/AppLayout';
 
 interface LayoutProps {
   children: ReactNode;

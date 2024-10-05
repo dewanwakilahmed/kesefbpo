@@ -2,7 +2,7 @@ import { FC, ReactNode } from 'react';
 import type { Metadata } from 'next';
 
 // Layout
-import Layout from '@/components/Layout/Layout';
+import Layout from '@/components/Layout';
 
 // Font
 import { secondaryFont } from '@/public/fonts/fonts';
