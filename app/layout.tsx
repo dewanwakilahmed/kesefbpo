@@ -1,6 +1,9 @@
 import { FC, ReactNode } from 'react';
 import type { Metadata } from 'next';
 
+// Font
+import { secondaryFont } from '@/public/fonts/fonts';
+
 // CSS
 import './globals.css';
 
@@ -16,7 +19,7 @@ interface RootLayoutProps {
 const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
-      <body className="">{children}</body>
+      <body className={`body ${secondaryFont.className}`}>{children}</body>
     </html>
   );
 };
