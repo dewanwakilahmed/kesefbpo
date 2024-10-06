@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 .body {
-  @apply antialiased;
+  @apply bg-blue-200
+  max-w-screen-2xl
+  mx-auto
+  antialiased;
 }
