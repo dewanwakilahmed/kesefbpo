@@ -19,7 +19,7 @@ const HomeHero: FC = () => {
         </h2>
         <p className="hero-description">
           Leave the operational challenges to us, so you can focus on driving
-          business growth.
+          business growth
         </p>
         <div className="hero-buttons">
           <Link
@@ -28,7 +28,10 @@ const HomeHero: FC = () => {
           >
             Get Started
           </Link>
-          <Link href="/services" className="hero-button hero-button-secondary">
+          <Link
+            href="/services"
+            className={`hero-button hero-button-secondary ${primaryFont.className}`}
+          >
             Explore Our Services
           </Link>
         </div>
