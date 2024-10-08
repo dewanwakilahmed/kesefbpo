@@ -10,7 +10,7 @@ const HomePage: FC = () => {
   return (
     <div className="home-page">
       <HomeHero />
-      <HomeHero />
+      {/* <HomeHero /> */}
     </div>
   );
 };
