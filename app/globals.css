@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 .body {
-  @apply bg-blue-200
+  @apply bg-[url('/images/body-bg-2.svg')] bg-fixed bg-opacity-30
   max-w-screen-2xl
   mx-auto
-  antialiased;
+  antialiased
+  shadow-xl
+  rounded-lg;
 }
