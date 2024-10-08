@@ -1,5 +1,5 @@
 .hero-section {
-  @apply bg-[url('/images/home-hero-bg.jpg')] bg-cover bg-fixed bg-center min-h-screen flex items-center justify-center relative overflow-hidden;
+  @apply bg-[url('/images/home-hero-bg.jpg')] bg-cover bg-fixed bg-top sm:bg-center min-h-screen flex items-center justify-center relative overflow-hidden;
 }
 
 @media (max-width: 640px) {
