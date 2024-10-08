@@ -1,6 +1,17 @@
 .hero-section {
   @apply bg-[url('/images/home-hero-bg.jpg')] bg-cover bg-fixed bg-center min-h-screen flex items-center justify-center relative overflow-hidden;
-  animation: parallax-scroll 10s linear infinite alternate;
+}
+
+@media (max-width: 640px) {
+  .hero-section {
+    animation: parallax-horizontal 10s linear infinite alternate;
+  }
+}
+
+@media (min-width: 641px) {
+  .hero-section {
+    animation: parallax-vertical 10s linear infinite alternate;
+  }
 }
 
 .hero-section::before {
@@ -54,12 +65,21 @@
   @apply bg-white text-primary border border-primary hover:bg-gray-100;
 }
 
-@keyframes parallax-scroll {
+@keyframes parallax-horizontal {
   0% {
-    background-position: 0% 0%;
+    background-position: 0% 50%;
   }
   100% {
-    background-position: 100% 100%;
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes parallax-vertical {
+  0% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 50% 100%;
   }
 }
 
