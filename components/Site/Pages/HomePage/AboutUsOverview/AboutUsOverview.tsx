@@ -12,6 +12,34 @@ import {
   StarIcon,
 } from '@heroicons/react/24/solid';
 
+// Content
+const aboutUsHighlights = [
+  {
+    title: 'Industry Experience',
+    description:
+      'Established in 2023, Kesef BPO has rapidly gained a reputation for delivering high-quality business solutions.',
+    icon: BriefcaseIcon,
+  },
+  {
+    title: 'Global Reach',
+    description:
+      'Serving clients worldwide with a network of resources that ensures scalability and efficiency.',
+    icon: GlobeAltIcon,
+  },
+  {
+    title: 'Tailored Solutions',
+    description:
+      'Customizable outsourcing solutions designed to meet the specific needs of your business.',
+    icon: CogIcon,
+  },
+  {
+    title: 'Client Success',
+    description:
+      'Dedicated to driving client success through measurable business outcomes and optimized performance.',
+    icon: StarIcon,
+  },
+];
+
 const AboutUsOverview: FC = () => {
   return (
     <section className="about-us-overview-section">
@@ -21,48 +49,20 @@ const AboutUsOverview: FC = () => {
         <p className="about-us-overview-introduction">
           At Kesef BPO, we strive to redefine business process outsourcing with
           innovative solutions and a client-centric approach that ensures
-          operational excellence for our partners
+          operational excellence for our partners.
         </p>
 
         <div className="about-us-overview-grid">
-          <div className="highlight-item">
-            <BriefcaseIcon className="highlight-icon" />
-            <h3 className="highlight-title">Industry Experience</h3>
-            <p className="highlight-description">
-              Established in 2023, Kesef BPO has rapidly gained a reputation for
-              delivering high-quality business solutions
-            </p>
-          </div>
-
-          <div className="highlight-item">
-            <GlobeAltIcon className="highlight-icon" />
-            <h3 className="highlight-title">Global Reach</h3>
-            <p className="highlight-description">
-              Serving clients worldwide with a network of resources that ensures
-              scalability and efficiency
-            </p>
-          </div>
-
-          <div className="highlight-item">
-            <CogIcon className="highlight-icon" />
-            <h3 className="highlight-title">Tailored Solutions</h3>
-            <p className="highlight-description">
-              Customizable outsourcing solutions designed to meet the specific
-              needs of your business
-            </p>
-          </div>
-
-          <div className="highlight-item">
-            <StarIcon className="highlight-icon" />
-            <h3 className="highlight-title">Client Success</h3>
-            <p className="highlight-description">
-              Dedicated to driving client success through measurable business
-              outcomes and optimized performance
-            </p>
-          </div>
+          {aboutUsHighlights.map((highlight, index) => (
+            <div key={`highlight-${index}`} className="highlight-item">
+              <highlight.icon className="highlight-icon" aria-hidden="true" />
+              <h3 className="highlight-title">{highlight.title}</h3>
+              <p className="highlight-description">{highlight.description}</p>
+            </div>
+          ))}
         </div>
 
-        <Link href="/about-us-overview" className="about-us-overview-cta">
+        <Link href="/about-us" className="about-us-overview-btn">
           Get to Know Us Better
         </Link>
       </div>

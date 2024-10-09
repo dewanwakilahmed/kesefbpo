@@ -4,7 +4,7 @@
 }
 
 .services-we-offer-overview-container {
-  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center;
 }
 
 /* Headline and Intro Text */
@@ -46,11 +46,6 @@
   @apply text-primary font-medium hover:underline;
 }
 
-/* "View All" Button Styling */
-.services-we-offer-view-all {
-  @apply text-center mt-8;
-}
-
-.services-we-offer-button {
-  @apply inline-block bg-primary text-white py-3 px-6 rounded-lg hover:bg-success transition;
+.services-we-offer-btn {
+  @apply inline-block bg-primary text-white py-3 px-6 rounded-lg hover:bg-success transition mt-8;
 }

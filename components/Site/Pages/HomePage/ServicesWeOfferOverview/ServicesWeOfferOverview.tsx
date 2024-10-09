@@ -1,9 +1,10 @@
-'use client';
-
 import React, { FC } from 'react';
 import Link from 'next/link';
+
+// CSS
 import './services-we-offer-overview.css';
 
+// Icons
 import {
   ClipboardIcon,
   PhoneIcon,
@@ -15,6 +16,7 @@ import {
   UserGroupIcon,
 } from '@heroicons/react/24/solid';
 
+// Content
 const servicesWeOffer = [
   {
     title: 'Customer Support',
@@ -97,11 +99,9 @@ const ServicesWeOfferOverview: FC = () => {
           ))}
         </div>
 
-        <div className="services-we-offer-view-all">
-          <Link href="/services-we-offer" className="services-we-offer-button">
-            View All Services
-          </Link>
-        </div>
+        <Link href="/services-we-offer" className="services-we-offer-btn">
+          View All Services
+        </Link>
       </div>
     </section>
   );
