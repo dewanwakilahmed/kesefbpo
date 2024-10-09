@@ -1,20 +1,20 @@
-.about-us-section {
+.about-us-overview-section {
   @apply bg-neutral text-gray-900 py-16 lg:py-24;
 }
 
-.about-us-container {
+.about-us-overview-container {
   @apply container mx-auto px-6 lg:px-8 text-center;
 }
 
-.about-us-headline {
+.about-us-overview-headline {
   @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6;
 }
 
-.about-us-introduction {
+.about-us-overview-introduction {
   @apply text-base sm:text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto mb-12 lg:mb-16 text-gray-700 leading-relaxed;
 }
 
-.about-us-grid {
+.about-us-overview-grid {
   @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 lg:mb-16;
 }
 
@@ -34,6 +34,6 @@
   @apply text-sm text-gray-600;
 }
 
-.about-us-cta {
+.about-us-overview-cta {
   @apply py-3 px-6 sm:py-4 sm:px-8 bg-primary hover:bg-indigo-600 text-white rounded-full transition-all duration-300 transform hover:scale-105;
 }

@@ -5,13 +5,15 @@ import './home-page.css';
 
 // Components
 import HomeHero from '@/components/Site/Pages/HomePage/HomeHero/HomeHero';
-import AboutUs from '@/components/Site/Pages/HomePage/AboutUs/AboutUs';
+import AboutUsOverview from '@/components/Site/Pages/HomePage/AboutUsOverview/AboutUsOverview';
+import ServicesWeOfferOverview from '@/components/Site/Pages/HomePage/ServicesWeOfferOverview/ServicesWeOfferOverview';
 
 const HomePage: FC = () => {
   return (
     <div className="home-page">
       <HomeHero />
-      <AboutUs />
+      <AboutUsOverview />
+      <ServicesWeOfferOverview />
     </div>
   );
 };

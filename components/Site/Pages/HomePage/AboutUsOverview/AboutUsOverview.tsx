@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import Link from 'next/link';
 
 // CSS
-import './about-us.css';
+import './about-us-overview.css';
 
 // Icons
 import {
@@ -12,19 +12,19 @@ import {
   StarIcon,
 } from '@heroicons/react/24/solid';
 
-const AboutUsSection: FC = () => {
+const AboutUsOverview: FC = () => {
   return (
-    <section className="about-us-section">
-      <div className="about-us-container">
-        <h2 className="about-us-headline">Get to Know Kesef BPO</h2>
+    <section className="about-us-overview-section">
+      <div className="about-us-overview-container">
+        <h2 className="about-us-overview-headline">Get to Know Kesef BPO</h2>
 
-        <p className="about-us-introduction">
+        <p className="about-us-overview-introduction">
           At Kesef BPO, we strive to redefine business process outsourcing with
           innovative solutions and a client-centric approach that ensures
           operational excellence for our partners
         </p>
 
-        <div className="about-us-grid">
+        <div className="about-us-overview-grid">
           <div className="highlight-item">
             <BriefcaseIcon className="highlight-icon" />
             <h3 className="highlight-title">Industry Experience</h3>
@@ -62,7 +62,7 @@ const AboutUsSection: FC = () => {
           </div>
         </div>
 
-        <Link href="/about-us" className="about-us-cta">
+        <Link href="/about-us-overview" className="about-us-overview-cta">
           Get to Know Us Better
         </Link>
       </div>
@@ -70,4 +70,4 @@ const AboutUsSection: FC = () => {
   );
 };
 
-export default AboutUsSection;
+export default AboutUsOverview;
