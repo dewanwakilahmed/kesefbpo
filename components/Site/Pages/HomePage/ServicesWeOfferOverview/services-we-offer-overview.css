@@ -16,92 +16,41 @@
   @apply text-lg md:text-xl text-center text-dark mb-10 max-w-3xl mx-auto;
 }
 
-/* Slick Slider Customizations */
-.services-we-offer-slider {
-  @apply mb-10;
-}
-
-/* Individual Slide Styling */
-.services-we-offer-overview-slide {
-  @apply flex justify-center items-center;
-  margin: 0 30px; /* Increased margin for spacing */
+/* Grid Layout for Services */
+.services-we-offer-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8;
 }
 
 /* Service Card Styling */
-.services-we-offer-overview-card {
+.services-we-offer-card {
   @apply bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center transition transform hover:-translate-y-2 hover:shadow-xl;
-  transition: all 0.3s ease-in-out;
 }
 
 /* Service Icon Styling */
-.services-we-offer-overview-icon {
+.services-we-offer-icon {
   @apply h-12 w-12 text-primary mb-4;
 }
 
 /* Service Title */
-.services-we-offer-overview-title {
+.services-we-offer-title {
   @apply text-xl font-semibold text-dark mb-2;
 }
 
 /* Service Description */
-.services-we-offer-overview-description {
+.services-we-offer-description {
   @apply text-base text-gray-600 mb-4;
 }
 
 /* Call-to-Action Link */
-.services-we-offer-overview-cta {
+.services-we-offer-cta {
   @apply text-primary font-medium hover:underline;
 }
 
 /* "View All" Button Styling */
-.services-we-offer-overview-view-all {
+.services-we-offer-view-all {
   @apply text-center mt-8;
 }
 
-.services-we-offer-overview-button {
+.services-we-offer-button {
   @apply inline-block bg-primary text-white py-3 px-6 rounded-lg hover:bg-success transition;
-}
-
-/* Slick Dots Custom Styling */
-.slick-dots {
-  @apply mt-8; /* More spacing above the dots */
-}
-
-.slick-dots li button:before {
-  font-size: 18px; /* Increase dot size */
-}
-
-.slick-dots li.slick-active button:before {
-  color: #6366f1; /* Updated color for active dots */
-  opacity: 1; /* Ensure visibility */
-}
-
-.slick-dots li button:hover:before {
-  transform: scale(1.2); /* Enlarge dots on hover */
-}
-
-/* Slick Arrows Styling */
-.slick-prev,
-.slick-next {
-  background-color: #1e40af; /* Arrow button background color */
-  border: 3px solid #f7f9fc; /* Thicker border for better visibility */
-  color: white;
-  width: 50px; /* Increased width */
-  height: 50px; /* Increased height */
-  z-index: 1;
-}
-
-.slick-prev:hover,
-.slick-next:hover {
-  background-color: #6366f1; /* Hover effect */
-  border: 3px solid #ffffff; /* Contrasting border on hover */
-}
-
-/* Adjust Arrow Positioning */
-.slick-prev {
-  left: -50px; /* Position left arrow */
-}
-
-.slick-next {
-  right: -50px; /* Position right arrow */
 }

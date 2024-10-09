@@ -2,10 +2,7 @@
 
 import React, { FC } from 'react';
 import Link from 'next/link';
-import Slider from 'react-slick';
 import './services-we-offer-overview.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
 import {
   ClipboardIcon,
@@ -70,48 +67,6 @@ const servicesWeOffer = [
 ];
 
 const ServicesWeOfferOverview: FC = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-    appendDots: (dots) => (
-      <div style={{ marginTop: '25px' }}>
-        <ul style={{ margin: '0px', padding: '0px' }}> {dots} </ul>
-      </div>
-    ),
-    customPaging: () => (
-      <div
-        style={{
-          width: '14px',
-          height: '14px',
-          borderRadius: '50%',
-          background: '#1E40AF',
-          margin: '0 7px',
-        }}
-      ></div>
-    ),
-  };
-
   return (
     <section className="services-we-offer-overview">
       <div className="services-we-offer-overview-container">
@@ -123,38 +78,27 @@ const ServicesWeOfferOverview: FC = () => {
           operations, enhance efficiency, and drive success across multiple
           functions.
         </p>
-        <Slider {...settings} className="services-we-offer-slider">
+
+        <div className="services-we-offer-grid">
           {servicesWeOffer.map((service, index) => (
-            <div
-              key={`service-${index}`}
-              className="services-we-offer-overview-slide"
-            >
-              <div className="services-we-offer-overview-card">
-                <service.icon
-                  className="services-we-offer-overview-icon"
-                  aria-hidden="true"
-                />
-                <h3 className="services-we-offer-overview-title">
-                  {service.title}
-                </h3>
-                <p className="services-we-offer-overview-description">
-                  {service.description}
-                </p>
-                <Link
-                  href="/services-we-offer"
-                  className="services-we-offer-overview-cta"
-                >
-                  Learn More
-                </Link>
-              </div>
+            <div key={`service-${index}`} className="services-we-offer-card">
+              <service.icon
+                className="services-we-offer-icon"
+                aria-hidden="true"
+              />
+              <h3 className="services-we-offer-title">{service.title}</h3>
+              <p className="services-we-offer-description">
+                {service.description}
+              </p>
+              <Link href="/services-we-offer" className="services-we-offer-cta">
+                Learn More
+              </Link>
             </div>
           ))}
-        </Slider>
-        <div className="services-we-offer-overview-view-all">
-          <Link
-            href="/services-we-offer"
-            className="services-we-offer-overview-button"
-          >
+        </div>
+
+        <div className="services-we-offer-view-all">
+          <Link href="/services-we-offer" className="services-we-offer-button">
             View All Services
           </Link>
         </div>

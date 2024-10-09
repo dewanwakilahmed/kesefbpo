@@ -55,7 +55,7 @@
 }
 
 .hero-button {
-  @apply font-medium py-3 sm:py-4 px-6 sm:px-8 rounded-full transition duration-300 ease-in-out shadow-xl hover:shadow-2xl whitespace-nowrap hover:-translate-y-[5px] hover:scale-105;
+  @apply font-medium py-3 sm:py-4 px-6 sm:px-8 rounded-lg transition duration-300 ease-in-out shadow-xl hover:shadow-2xl whitespace-nowrap hover:-translate-y-[5px] hover:scale-105;
 }
 
 .hero-button-primary {
