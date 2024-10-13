@@ -15,7 +15,7 @@ const HomeHero: FC = () => {
           Accelerate. Optimize. Grow.
         </h1>
         <h2 className={`hero-subheadline ${primaryFont.className}`}>
-          With Kesef BPO at the Helm
+          With KESEF BPO at the Helm
         </h2>
         <p className="hero-description">
           Leave the operational challenges to us, so you can focus on driving
