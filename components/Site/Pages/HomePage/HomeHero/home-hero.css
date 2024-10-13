@@ -3,11 +3,11 @@
   background-position: center bottom;
 }
 
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .hero-section {
     animation: parallax-horizontal 15s linear infinite alternate;
   }
-}
+} */
 
 @media (min-width: 641px) {
   .hero-section {
