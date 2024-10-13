@@ -1,11 +1,11 @@
 .hero-section {
   @apply bg-[url('/images/home-hero-bg.jpg')] bg-cover bg-fixed min-h-screen flex items-center justify-center relative overflow-hidden;
-  background-position: center center;
+  background-position: center bottom;
 }
 
 @media (max-width: 640px) {
   .hero-section {
-    animation: parallax-horizontal 10s linear infinite alternate;
+    animation: parallax-horizontal 15s linear infinite alternate;
   }
 }
 
