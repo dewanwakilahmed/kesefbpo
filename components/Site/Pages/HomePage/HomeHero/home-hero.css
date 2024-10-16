@@ -4,6 +4,7 @@
   bg-[url('/images/home-hero-bg.jpg')]
   bg-cover
   bg-fixed
+  bg-center
   
   flex
   items-center
@@ -18,14 +19,12 @@
   content: '';
   @apply absolute
   inset-0
-  z-0
 
   bg-gradient-to-b from-dark/80 via-dark/70 to-dark/60;
 }
 
 .home-hero-container {
   @apply relative
-  z-10
   text-center
   px-6;
 
