@@ -3,7 +3,7 @@
   
   bg-[url('/images/home-hero-bg.jpg')]
   bg-cover
-  md:bg-fixed
+  bg-fixed
   
   flex
   items-center
