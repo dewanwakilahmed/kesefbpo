@@ -1,7 +1,7 @@
 .home-hero {
   @apply min-h-screen
   
-  bg-[url('/images/home-hero-bg.jpg')]
+  bg-[url('/images/home-hero-bg.webp')]
   bg-cover
   lg:bg-fixed
   

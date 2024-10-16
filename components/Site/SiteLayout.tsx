@@ -11,7 +11,7 @@ interface SiteLayoutProps {
 const SiteLayout: FC<SiteLayoutProps> = ({ children }) => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main className="main">{children}</main>
       {/* <Footer /> */}
     </>

@@ -1,3 +1,35 @@
 .header {
-  @apply bg-red-200;
+  @apply fixed
+  z-10
+  w-full
+  top-3;
+}
+
+.header-container {
+  @apply bg-light/40
+  backdrop-blur-sm
+
+  max-w-[1220px]
+  mx-auto
+
+  text-light
+  lg:text-lg
+  
+  flex
+  flex-row
+  items-center
+  justify-between
+  
+  py-3
+  px-3
+  
+  rounded-xl
+  shadow-xl;
+}
+
+.nav-list {
+  @apply flex
+  flex-row
+  items-center
+  gap-6;
 }
