@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .body {
-  @apply bg-[url('/images/body-bg-2.svg')] bg-fixed bg-opacity-30
+  @apply bg-[url('/images/body-bg.svg')] bg-fixed bg-opacity-30
   max-w-screen-2xl
   mx-auto
   antialiased
@@ -17,8 +17,14 @@
   whitespace-nowrap
   font-[700]
   text-base
+  lg:text-lg
+  2xl:text-xl
   px-5
+  lg:px-6
+  2xl:px-7
   py-2.5
+  lg:py-3
+  2xl:py-3.5
   rounded-lg
   shadow-xl
   hover:shadow-2xl

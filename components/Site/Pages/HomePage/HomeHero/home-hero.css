@@ -1,7 +1,7 @@
 .home-hero {
   @apply min-h-screen
   
-  bg-[url('/images/home-hero-bg.jpg')]
+  bg-[url('/images/home-hero-bg.webp')]
   bg-cover
   lg:bg-fixed
   
@@ -32,43 +32,59 @@
 
 .home-hero-headline {
   @apply text-4xl
+  lg:text-5xl
+  2xl:text-6xl
   font-[900]
   leading-tight
   tracking-widest
   uppercase
   text-gray-50
 
-  mb-4;
+  mb-4
+  lg:mb-5
+  2xl:mb-6;
 
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
 .home-hero-subheadline {
   @apply text-xl
+  lg:text-2xl
+  2xl:text-3xl
   font-[500]
   leading-tight
   tracking-wider
   text-gray-200
 
-  mb-5;
+  mb-5
+  lg:mb-6
+  2xl:mb-7;
 
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
 .home-hero-description {
   @apply text-base
+  lg:text-lg
+  2xl:text-xl
   font-[300]
   leading-tight
   tracking-wide
   text-gray-300
 
-  mb-8;
+  mb-8
+  lg:mb-9
+  2xl:mb-10;
 }
 
 .home-hero-btns {
   @apply flex
   flex-col
-  gap-3;
+  sm:flex-row
+  justify-center
+  gap-4
+  lg:gap-5
+  2xl:gap-6;
 }
 
 @media (max-width: 355px) {
