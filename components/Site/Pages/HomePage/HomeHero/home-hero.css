@@ -3,8 +3,7 @@
   
   bg-[url('/images/home-hero-bg.jpg')]
   bg-cover
-  bg-fixed
-  bg-bottom
+  lg:bg-fixed
   
   flex
   items-center
