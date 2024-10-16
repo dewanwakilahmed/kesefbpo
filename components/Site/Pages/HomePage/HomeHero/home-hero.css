@@ -3,7 +3,6 @@
   
   bg-[url('/images/home-hero-bg.jpg')]
   bg-cover
-  bg-fixed
   
   flex
   items-center
@@ -11,6 +10,7 @@
   
   relative;
 
+  background-attachment: fixed;
   max-width: 100vw;
 }
 
