@@ -10,3 +10,51 @@
   shadow-xl
   rounded-lg;
 }
+
+.btn {
+  @apply border-2
+  border-primary
+  whitespace-nowrap
+  font-[700]
+  text-base
+  px-5
+  py-2.5
+  rounded-lg
+  shadow-xl
+  hover:shadow-2xl
+  transition;
+}
+
+.btn-primary {
+  @apply bg-primary
+  text-light
+  hover:bg-success
+  hover:border-success;
+}
+
+.btn-secondary {
+  @apply bg-light
+  text-primary
+  hover:bg-dark
+  hover:text-light;
+}
+
+@media (max-width: 355px) {
+  .btn {
+    @apply text-sm
+    font-[600]
+    px-4
+    py-2;
+  }
+}
+
+@keyframes slide-up-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

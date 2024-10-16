@@ -9,28 +9,28 @@ import './home-hero.css';
 
 const HomeHero: FC = () => {
   return (
-    <section className="hero-section">
-      <div className="hero-container">
-        <h1 className={`hero-headline ${primaryFont.className}`}>
-          Accelerate. Optimize. Grow.
+    <section className="home-hero">
+      <div className="home-hero-container">
+        <h1 className={`home-hero-headline ${primaryFont.className}`}>
+          Streamline Operations. Accelerate Growth.
         </h1>
-        <h2 className={`hero-subheadline ${primaryFont.className}`}>
-          With KESEF BPO at the Helm
+        <h2 className={`home-hero-subheadline ${primaryFont.className}`}>
+          Let KESEF BPO Power Your Business Growth
         </h2>
-        <p className="hero-description">
-          Leave the operational challenges to us, so you can focus on driving
-          business growth
+        <p className="home-hero-description">
+          We handle the complex tasks so you can focus on what matters most —
+          growing your business
         </p>
-        <div className="hero-buttons">
+        <div className="home-hero-btns">
           <Link
-            href="/contact"
-            className={`hero-button hero-button-primary ${primaryFont.className}`}
+            href="/contact-us"
+            className={`home-hero-btn btn btn-primary ${primaryFont.className}`}
           >
             Get Started
           </Link>
           <Link
-            href="/services"
-            className={`hero-button hero-button-secondary ${primaryFont.className}`}
+            href="/services-we-offer"
+            className={`home-hero-btn btn btn-secondary ${primaryFont.className}`}
           >
             Explore Our Services
           </Link>
