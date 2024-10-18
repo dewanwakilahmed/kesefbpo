@@ -16,10 +16,10 @@
 
   lg:text-lg
   
-  flex
-  flex-row
+  grid
+  grid-cols-[auto,1fr]
   items-center
-  justify-between
+  justify-center
   
   py-4
   px-4
@@ -77,6 +77,7 @@
 }
 
 .mobile-nav {
+  @apply justify-self-end;
 }
 
 .menu-icon {
@@ -113,4 +114,24 @@
   .menu-icon {
     @apply size-8;
   }
+}
+
+.mobile-menu {
+  @apply col-span-2
+  -mt-1
+  pb-4;
+}
+
+.mobile-menu-divider {
+  @apply border-t 
+  border-gray-300 
+  my-3;
+}
+
+.mobile-nav-links {
+  @apply flex
+  flex-col
+  items-center
+  justify-center
+  gap-4;
 }

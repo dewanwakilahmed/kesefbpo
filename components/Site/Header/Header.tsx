@@ -56,6 +56,48 @@ const Header: FC = () => {
             <Bars2Icon className="menu-icon" onClick={toggleMobileMenu} />
           )}
         </nav>
+
+        {mobileMenuOpen && (
+          <div className="mobile-menu">
+            <hr className="mobile-menu-divider" />
+            <ul className="mobile-nav-links">
+              <li className="mobile-nav-link">
+                <Link href="/" onClick={toggleMobileMenu}>
+                  Home
+                </Link>
+              </li>
+              <li className="mobile-nav-link">
+                <Link href="/about-us" onClick={toggleMobileMenu}>
+                  About Us
+                </Link>
+              </li>
+              <li className="mobile-nav-link">
+                <Link href="/services-we-offer" onClick={toggleMobileMenu}>
+                  Services
+                </Link>
+              </li>
+              <li className="mobile-nav-link">
+                <Link href="/industries-we-serve" onClick={toggleMobileMenu}>
+                  Industries
+                </Link>
+              </li>
+              <li className="mobile-nav-link">
+                <Link href="/careers" onClick={toggleMobileMenu}>
+                  Careers
+                </Link>
+              </li>
+              <li className="mobile-nav-link">
+                <Link
+                  className="btn btn-primary"
+                  href="/contact-us"
+                  onClick={toggleMobileMenu}
+                >
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
+        )}
       </div>
     </header>
   );
