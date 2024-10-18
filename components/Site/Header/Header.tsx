@@ -12,28 +12,30 @@ const Header: FC = () => {
     <header className={`header ${primaryFont.className}`}>
       <div className="header-container">
         <Link href="/" className="header-logo">
-          KESEF BPO
+          <span className="kesef">KESEF</span> <span className="bpo">BPO</span>
         </Link>
 
-        <nav className="header-nav">
-          <ul className="nav-list">
-            <li>
+        <nav className="nav">
+          <ul className="nav-links">
+            <li className="nav-link">
               <Link href="/">Home</Link>
             </li>
-            <li>
+            <li className="nav-link">
               <Link href="/about-us">About Us</Link>
             </li>
-            <li>
+            <li className="nav-link">
               <Link href="/services-we-offer">Services</Link>
             </li>
-            <li>
+            <li className="nav-link">
               <Link href="/industries-we-serve">Industries</Link>
             </li>
-            <li>
+            <li className="nav-link">
               <Link href="/careers">Careers</Link>
             </li>
-            <li className="btn btn-primary">
-              <Link href="/contact-us">Contact Us</Link>
+            <li>
+              <Link className="btn btn-primary" href="/contact-us">
+                Contact Us
+              </Link>
             </li>
           </ul>
         </nav>

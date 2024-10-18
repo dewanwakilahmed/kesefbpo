@@ -2,17 +2,18 @@
   @apply fixed
   z-10
   w-full
-  top-3;
+  top-4;
 }
 
 .header-container {
-  @apply bg-light/40
+  @apply bg-light/90
+  hover:bg-light/100
+  transition
   backdrop-blur-sm
 
   max-w-[1220px]
   mx-auto
 
-  text-light
   lg:text-lg
   
   flex
@@ -20,16 +21,53 @@
   items-center
   justify-between
   
-  py-3
-  px-3
+  py-6
+  px-6
   
   rounded-xl
-  shadow-xl;
+  shadow-xl
+  hover:shadow-2xl;
+
+  animation: slide-down-fade-in 1s ease-out forwards;
 }
 
-.nav-list {
+.header-logo {
+  @apply tracking-wider;
+}
+
+.kesef {
+  @apply text-primary
+  text-4xl
+  font-[900];
+}
+
+.bpo {
+  @apply text-accent
+  text-2xl
+  font-[800];
+}
+
+.nav-links {
   @apply flex
   flex-row
   items-center
-  gap-6;
+  gap-6
+  
+  text-dark
+  font-[700]
+  tracking-wide;
+}
+
+.nav-link a {
+  @apply relative;
+}
+
+.nav-link a::after {
+  content: '';
+  @apply absolute left-1/2 -bottom-1 h-[2.5px] w-0 bg-dark transition-all duration-300;
+  transform: translateX(-50%);
+}
+
+.nav-link a:hover::after {
+  @apply w-full;
 }
