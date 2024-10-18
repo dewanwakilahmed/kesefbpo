@@ -21,8 +21,8 @@
   items-center
   justify-between
   
-  py-6
-  px-6
+  py-4
+  px-4
   
   rounded-xl
   shadow-xl
@@ -45,6 +45,10 @@
   @apply text-accent
   text-2xl
   font-[800];
+}
+
+.nav {
+  @apply hidden;
 }
 
 .nav-links {
@@ -70,4 +74,43 @@
 
 .nav-link a:hover::after {
   @apply w-full;
+}
+
+.mobile-nav {
+}
+
+.menu-icon {
+  @apply size-8;
+}
+
+@media (max-width: 355px) {
+  .header {
+    @apply px-2.5;
+  }
+
+  .header-container {
+    @apply px-2
+    py-2
+    rounded-lg;
+  }
+
+  .header-logo {
+    @apply tracking-wider;
+  }
+
+  .kesef {
+    @apply text-primary
+    text-2xl
+    font-[900];
+  }
+
+  .bpo {
+    @apply text-accent
+    text-lg
+    font-[800];
+  }
+
+  .menu-icon {
+    @apply size-8;
+  }
 }

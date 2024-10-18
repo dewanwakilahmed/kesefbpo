@@ -1,13 +1,22 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import Link from 'next/link';
 
 // Font
 import { primaryFont } from '@/public/fonts/fonts';
 
+// Icons
+import { Bars2Icon, XMarkIcon } from '@heroicons/react/24/solid';
+
 // CSS
 import './header.css';
 
 const Header: FC = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
   return (
     <header className={`header ${primaryFont.className}`}>
       <div className="header-container">
@@ -38,6 +47,14 @@ const Header: FC = () => {
               </Link>
             </li>
           </ul>
+        </nav>
+
+        <nav className="mobile-nav">
+          {mobileMenuOpen ? (
+            <XMarkIcon className="menu-icon" onClick={toggleMobileMenu} />
+          ) : (
+            <Bars2Icon className="menu-icon" onClick={toggleMobileMenu} />
+          )}
         </nav>
       </div>
     </header>
