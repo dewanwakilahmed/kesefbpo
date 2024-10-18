@@ -2,7 +2,14 @@
   @apply fixed
   z-10
   w-full
-  top-4;
+  left-0
+  top-4
+  px-5
+  sm:px-6
+  md:px-8
+  lg:px-10
+  xl:px-12
+  2xl:px-14;
 }
 
 .header-container {
@@ -13,8 +20,6 @@
 
   max-w-[1220px]
   mx-auto
-
-  lg:text-lg
   
   grid
   grid-cols-[auto,1fr]
@@ -23,6 +28,10 @@
   
   py-4
   px-4
+  lg:py-6
+  lg:px-6
+  2xl:py-8
+  2xl:px-8
   
   rounded-xl
   shadow-xl
@@ -32,23 +41,29 @@
 }
 
 .header-logo {
-  @apply tracking-wider;
+  @apply tracking-widest;
 }
 
 .kesef {
   @apply text-primary
-  text-4xl
-  font-[900];
+  font-[900]
+  text-3xl
+  lg:text-4xl
+  2xl:text-5xl;
 }
 
 .bpo {
   @apply text-accent
-  text-2xl
-  font-[800];
+  font-[800]
+  text-xl
+  lg:text-2xl
+  2xl:text-3xl;
 }
 
 .nav {
-  @apply hidden;
+  @apply hidden
+  lg:block
+  justify-self-end;
 }
 
 .nav-links {
@@ -63,7 +78,9 @@
 }
 
 .nav-link a {
-  @apply relative;
+  @apply relative
+  lg:text-lg
+  2xl:text-xl;
 }
 
 .nav-link a::after {
@@ -77,7 +94,8 @@
 }
 
 .mobile-nav {
-  @apply justify-self-end;
+  @apply justify-self-end
+  lg:hidden;
 }
 
 .menu-icon {
@@ -88,12 +106,18 @@
   @apply col-span-2
   -mt-1
   pb-4;
+
+  animation: open-mobile-nav 0.5s ease-out forwards;
+}
+
+.mobile-menu.hidden {
+  animation: close-mobile-nav 0.5s ease-out forwards;
 }
 
 .mobile-menu-divider {
   @apply border-t 
   border-gray-400 
-  my-3;
+  my-5;
 }
 
 .mobile-nav-links {
@@ -101,12 +125,14 @@
   flex-col
   items-center
   justify-center
-  gap-4;
+  gap-6;
 }
 
 .mobile-nav-link a {
-  @apply text-neutral-950
-  active:text-primary;
+  @apply text-dark
+  active:text-primary
+  font-[800]
+  text-base;
 }
 
 .mobile-nav-cta {
@@ -120,32 +146,32 @@
 
   .header-container {
     @apply px-2.5
-    py-2
+    py-2.5
     rounded-lg;
   }
 
-  .header-logo {
-    @apply tracking-wider;
-  }
-
   .kesef {
-    @apply text-primary
-    text-2xl
-    font-[900];
+    @apply text-2xl;
   }
 
   .bpo {
-    @apply text-accent
-    text-lg
-    font-[800];
+    @apply text-lg;
   }
 
   .menu-icon {
     @apply size-6;
   }
 
-  .mobile-nav-link {
+  .mobile-menu-divider {
+    @apply my-3;
+  }
+
+  .mobile-nav-links {
+    @apply gap-4;
+  }
+
+  .mobile-nav-link a {
     @apply text-sm
-    font-[600];
+    font-[700];
   }
 }
