@@ -130,7 +130,7 @@
 
 .mobile-nav-link a {
   @apply text-dark
-  active:text-primary
+  hover:text-primary
   font-[800]
   text-base;
 }
