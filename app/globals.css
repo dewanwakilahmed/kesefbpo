@@ -50,7 +50,8 @@
     @apply text-sm
     font-[600]
     px-4
-    py-2;
+    py-2
+    rounded-lg;
   }
 }
 

@@ -58,7 +58,7 @@ const Header: FC = () => {
         </nav>
 
         {mobileMenuOpen && (
-          <div className="mobile-menu">
+          <nav className="mobile-menu">
             <hr className="mobile-menu-divider" />
             <ul className="mobile-nav-links">
               <li className="mobile-nav-link">
@@ -86,7 +86,7 @@ const Header: FC = () => {
                   Careers
                 </Link>
               </li>
-              <li className="mobile-nav-link">
+              <li className="mobile-nav-link mobile-nav-cta">
                 <Link
                   className="btn btn-primary"
                   href="/contact-us"
@@ -96,7 +96,7 @@ const Header: FC = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </nav>
         )}
       </div>
     </header>
