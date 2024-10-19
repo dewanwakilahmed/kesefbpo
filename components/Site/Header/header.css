@@ -136,7 +136,7 @@
 }
 
 .mobile-nav-cta {
-  @apply mt-3;
+  @apply mt-4;
 }
 
 @media (max-width: 355px) {
@@ -176,5 +176,9 @@
   .mobile-nav-link a {
     @apply text-sm
     font-[700];
+  }
+
+  .mobile-nav-cta {
+    @apply mt-3;
   }
 }
