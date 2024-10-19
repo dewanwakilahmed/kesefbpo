@@ -6,7 +6,7 @@ import './contact-us-page.css';
 // Components
 
 const ContactUsPage: FC = () => {
-  return <div className="contact-us-page">Contact Us Page</div>;
+  return <main className="contact-us-page">Contact Us Page</main>;
 };
 
 export default ContactUsPage;

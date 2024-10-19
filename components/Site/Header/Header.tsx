@@ -33,10 +33,10 @@ const Header: FC = () => {
               <Link href="/about-us">About Us</Link>
             </li>
             <li className="nav-link">
-              <Link href="/services-we-offer">Services</Link>
+              <Link href="/services">Services</Link>
             </li>
             <li className="nav-link">
-              <Link href="/industries-we-serve">Industries</Link>
+              <Link href="/industries">Industries</Link>
             </li>
             <li className="nav-link">
               <Link href="/careers">Careers</Link>
@@ -79,12 +79,12 @@ const Header: FC = () => {
                 </Link>
               </li>
               <li className="mobile-nav-link">
-                <Link href="/services-we-offer" onClick={toggleMobileMenu}>
+                <Link href="/services" onClick={toggleMobileMenu}>
                   Services
                 </Link>
               </li>
               <li className="mobile-nav-link">
-                <Link href="/industries-we-serve" onClick={toggleMobileMenu}>
+                <Link href="/industries" onClick={toggleMobileMenu}>
                   Industries
                 </Link>
               </li>

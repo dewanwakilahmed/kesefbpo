@@ -6,7 +6,7 @@ import './careers-page.css';
 // Components
 
 const CareersPage: FC = () => {
-  return <div className="careers-page">Careers Page</div>;
+  return <main className="careers-page">Careers Page</main>;
 };
 
 export default CareersPage;

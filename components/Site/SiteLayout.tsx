@@ -12,7 +12,7 @@ const SiteLayout: FC<SiteLayoutProps> = ({ children }) => {
   return (
     <>
       <Header />
-      <main className="main">{children}</main>
+      {children}
       {/* <Footer /> */}
     </>
   );

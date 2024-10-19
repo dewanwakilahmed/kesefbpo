@@ -12,13 +12,13 @@ import WhyChooseUs from '@/components/Site/Pages/HomePage/WhyChooseUs/WhyChooseU
 
 const HomePage: FC = () => {
   return (
-    <div className="home-page">
+    <main className="home-page">
       <HomeHero />
       <AboutUsOverview />
       <ServicesWeOfferOverview />
       <WhyChooseUs />
       <IndustriesWeServeOverview />
-    </div>
+    </main>
   );
 };
 
