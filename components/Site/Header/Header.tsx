@@ -52,17 +52,21 @@ const Header: FC = () => {
           </ul>
         </nav>
 
-        <nav className="mobile-nav">
-          {mobileMenuOpen ? (
-            <XMarkIcon className="menu-icon" onClick={toggleMobileMenu} />
-          ) : (
-            <Bars2Icon className="menu-icon" onClick={toggleMobileMenu} />
-          )}
-        </nav>
+        {mobileMenuOpen ? (
+          <XMarkIcon
+            className="mobile-nav-toggle-btn"
+            onClick={toggleMobileMenu}
+          />
+        ) : (
+          <Bars2Icon
+            className="mobile-nav-toggle-btn"
+            onClick={toggleMobileMenu}
+          />
+        )}
 
         {mobileMenuOpen && (
-          <nav className="mobile-menu">
-            <hr className="mobile-menu-divider" />
+          <nav className="mobile-nav">
+            <hr className="mobile-nav-divider" />
             <ul className="mobile-nav-links">
               <li className="mobile-nav-link">
                 <Link href="/" onClick={toggleMobileMenu}>
