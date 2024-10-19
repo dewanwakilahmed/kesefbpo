@@ -42,7 +42,10 @@ const Header: FC = () => {
               <Link href="/careers">Careers</Link>
             </li>
             <li>
-              <Link className="btn btn-primary" href="/contact-us">
+              <Link
+                className="header-nav-cta btn btn-primary"
+                href="/contact-us"
+              >
                 Contact Us
               </Link>
             </li>

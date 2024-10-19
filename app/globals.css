@@ -3,10 +3,15 @@
 @tailwind utilities;
 
 .body {
-  @apply bg-[url('/images/body-bg.svg')] bg-fixed bg-opacity-30
+  @apply bg-[url('/images/body-bg.svg')] 
+  bg-fixed 
+  bg-opacity-30
+
   max-w-screen-2xl
   mx-auto
+
   antialiased
+  
   shadow-xl
   rounded-lg;
 }
@@ -19,12 +24,12 @@
   text-base
   lg:text-lg
   2xl:text-xl
-  px-5
-  lg:px-6
-  2xl:px-7
-  py-2.5
-  lg:py-3
-  2xl:py-3.5
+  px-4
+  lg:px-5
+  2xl:px-6
+  py-2
+  lg:py-2.5
+  2xl:py-3
   rounded-xl
   shadow-xl
   hover:shadow-2xl
@@ -49,8 +54,6 @@
   .btn {
     @apply text-sm
     font-[600]
-    px-4
-    py-2
     rounded-lg;
   }
 }
