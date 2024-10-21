@@ -1,47 +1,44 @@
-.home-hero {
+.contact-us-hero {
   @apply min-h-screen
   
-  bg-[url('/images/home-hero-bg.webp')]
+  bg-[url('/images/contact-us-hero-bg.jpg')]
   bg-cover
   lg:bg-fixed
-  
+  bg-top
+
   flex
   items-center
   justify-center
   
   relative;
-
-  max-width: 100vw;
 }
 
-.home-hero::before {
+.contact-us-hero::before {
   content: '';
   @apply absolute
-  inset-0
+  inset-0 
   bg-gradient-to-b from-dark/80 via-dark/70 to-dark/60;
 }
 
-.home-hero-container {
+.contact-us-hero-container {
   @apply relative
   text-center
-  
-  section-content-width
-  max-w-[1200px]
-  mx-auto;
+
+  section-content-width;
 
   animation: slide-up-fade-in 1s ease-out forwards;
 }
 
-.home-hero-headline {
+.contact-us-hero-headline {
   @apply text-gray-50
+  font-[900]
+  uppercase
+  tracking-widest
+  leading-tight
   text-4xl
   lg:text-5xl
   2xl:text-6xl
-  font-[900]
-  leading-tight
-  tracking-widest
-  uppercase
-
+  
   mb-3
   lg:mb-4
   2xl:mb-5;
@@ -49,15 +46,15 @@
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
 
-.home-hero-subheadline {
+.contact-us-hero-subheadline {
   @apply text-gray-200
+  font-[500]
+  tracking-wider
+  leading-tight
   text-xl
   lg:text-2xl
   2xl:text-3xl
-  font-[500]
-  leading-tight
-  tracking-wider
-
+  
   mb-4
   lg:mb-5
   2xl:mb-6;
@@ -65,51 +62,40 @@
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
-.home-hero-description {
-  @apply text-base
+.contact-us-hero-description {
+  @apply text-gray-300
+  font-[300]
+  tracking-wide
+  leading-tight
+  text-base
   lg:text-lg
   2xl:text-xl
-  font-[300]
-  leading-tight
-  tracking-wide
-  text-gray-300
-
+  
   mb-7
   lg:mb-8
   2xl:mb-9;
 }
 
-.home-hero-btns {
+.contact-us-hero-cta {
   @apply flex
   flex-col
   sm:flex-row
-  justify-center
-  gap-4
-  lg:gap-5
-  2xl:gap-6;
+  justify-center;
 }
 
 @media (max-width: 355px) {
-  .home-hero-container {
-    @apply px-3;
-  }
-
-  .home-hero-headline {
+  .contact-us-hero-headline {
     @apply text-3xl
     mb-2;
   }
 
-  .home-hero-subheadline {
+  .contact-us-hero-subheadline {
     @apply text-lg
     mb-3;
   }
 
-  .home-hero-description {
+  .contact-us-hero-description {
     @apply text-sm
     mb-6;
-  }
-
-  .home-hero-btns {
-    @apply gap-2;
   }
 }
