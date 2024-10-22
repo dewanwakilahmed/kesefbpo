@@ -21,7 +21,7 @@ const HomeHero: FC = () => {
           We handle the complex tasks so you can focus on what matters most —
           growing your business
         </p>
-        <div className="home-hero-btns">
+        <div className="home-hero-cta">
           <Link
             href="/contact-us"
             className={`home-hero-btn btn btn-primary ${primaryFont.className}`}
@@ -29,7 +29,7 @@ const HomeHero: FC = () => {
             Get Started
           </Link>
           <Link
-            href="/services-we-offer"
+            href="/services"
             className={`home-hero-btn btn btn-secondary ${primaryFont.className}`}
           >
             Explore Our Services

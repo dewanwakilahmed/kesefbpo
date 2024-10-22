@@ -1,115 +1,30 @@
 .home-hero {
-  @apply min-h-screen
-  
-  bg-[url('/images/home-hero-bg.webp')]
-  bg-cover
-  lg:bg-fixed
-  
-  flex
-  items-center
-  justify-center
-  
-  relative;
-
-  max-width: 100vw;
+  @apply hero
+  bg-[url('/images/home-hero-bg.webp')];
 }
 
 .home-hero::before {
-  content: '';
-  @apply absolute
-  inset-0
-  bg-gradient-to-b from-dark/80 via-dark/70 to-dark/60;
+  @apply section-overlay;
 }
 
 .home-hero-container {
-  @apply relative
-  text-center
-  
-  section-content-width
-  max-w-[1200px]
-  mx-auto;
+  @apply section-container;
 
   animation: slide-up-fade-in 1s ease-out forwards;
 }
 
 .home-hero-headline {
-  @apply text-gray-50
-  text-4xl
-  lg:text-5xl
-  2xl:text-6xl
-  font-[900]
-  leading-tight
-  tracking-widest
-  uppercase
-
-  mb-3
-  lg:mb-4
-  2xl:mb-5;
-
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  @apply hero-headline;
 }
 
 .home-hero-subheadline {
-  @apply text-gray-200
-  text-xl
-  lg:text-2xl
-  2xl:text-3xl
-  font-[500]
-  leading-tight
-  tracking-wider
-
-  mb-4
-  lg:mb-5
-  2xl:mb-6;
-
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  @apply hero-subheadline;
 }
 
 .home-hero-description {
-  @apply text-base
-  lg:text-lg
-  2xl:text-xl
-  font-[300]
-  leading-tight
-  tracking-wide
-  text-gray-300
-
-  mb-7
-  lg:mb-8
-  2xl:mb-9;
+  @apply hero-description;
 }
 
-.home-hero-btns {
-  @apply flex
-  flex-col
-  sm:flex-row
-  justify-center
-  gap-4
-  lg:gap-5
-  2xl:gap-6;
-}
-
-@media (max-width: 355px) {
-  .home-hero-container {
-    @apply px-3;
-  }
-
-  .home-hero-headline {
-    @apply text-3xl
-    mb-2;
-  }
-
-  .home-hero-subheadline {
-    @apply text-lg
-    mb-3;
-  }
-
-  .home-hero-description {
-    @apply text-sm
-    mb-6;
-  }
-
-  .home-hero-btns {
-    @apply gap-2;
-  }
+.home-hero-cta {
+  @apply hero-cta;
 }

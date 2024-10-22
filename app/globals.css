@@ -29,9 +29,8 @@
 
   .hero {
     @apply min-h-screen
-    min-w-full
     bg-cover
-    lg:fixed
+    lg:bg-fixed
     flex
     items-center
     justify-center

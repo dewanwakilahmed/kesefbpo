@@ -14,10 +14,10 @@ const HomePage: FC = () => {
   return (
     <main className="home-page">
       <HomeHero />
-      <AboutUsOverview />
-      <ServicesWeOfferOverview />
-      <WhyChooseUs />
-      <IndustriesWeServeOverview />
+      {/* <AboutUsOverview /> */}
+      {/* <ServicesWeOfferOverview /> */}
+      {/* <WhyChooseUs /> */}
+      {/* <IndustriesWeServeOverview /> */}
     </main>
   );
 };

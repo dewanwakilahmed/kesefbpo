@@ -10,6 +10,7 @@ const ContactUsPage: FC = () => {
   return (
     <main className="contact-us-page">
       <ContactUsHero />
+      <div className="bg-blue-400 h-96"></div>
     </main>
   );
 };
