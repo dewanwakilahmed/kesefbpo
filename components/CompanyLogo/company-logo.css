@@ -1,0 +1,30 @@
+.company-logo {
+  @apply tracking-widest
+  uppercase;
+}
+
+.kesef {
+  @apply text-primary
+  font-[900]
+  text-3xl
+  lg:text-4xl
+  2xl:text-5xl;
+}
+
+.bpo {
+  @apply text-accent
+  font-[800]
+  text-xl
+  lg:text-2xl
+  2xl:text-3xl;
+}
+
+@media (max-width: 355px) {
+  .kesef {
+    @apply text-2xl;
+  }
+
+  .bpo {
+    @apply text-lg;
+  }
+}
