@@ -39,7 +39,7 @@
 
 .footer-phone-icon,
 .footer-email-icon {
-  @apply text-3xl
+  @apply text-4xl
   text-primary;
 }
 
