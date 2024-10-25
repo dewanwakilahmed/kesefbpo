@@ -12,6 +12,7 @@ import {
   RiLinkedinFill,
   RiFacebookFill,
   RiInstagramFill,
+  RiCopyrightLine,
 } from 'react-icons/ri';
 
 // CSS
@@ -167,7 +168,7 @@ const Footer: FC = () => {
         <div className="footer-company-info">
           <CompanyLogo className="footer-company-logo" />
           <p className="footer-company-description">
-            Empowering businesses through efficient outsourcing
+            Empowering your business with top-notch outsourcing solutions
           </p>
           <address className="footer-contact-info">
             <p className="footer-phone">
@@ -273,6 +274,14 @@ const Footer: FC = () => {
               </li>
             ))}
           </ul>
+        </div>
+
+        <div className="footer-copyright">
+          <p className="footer-copyright-text">
+            <RiCopyrightLine className="footer-copyright-icon" />
+            2023 - {new Date().getFullYear()} Kesef BPO
+          </p>
+          <p className="footer-rights-reserved">All rights reserved</p>
         </div>
       </div>
     </footer>

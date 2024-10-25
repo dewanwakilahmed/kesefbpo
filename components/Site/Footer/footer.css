@@ -95,6 +95,24 @@
   @apply text-gray-300;
 }
 
+.footer-copyright {
+  @apply text-gray-500
+  text-sm
+  tracking-widest
+  space-y-1;
+}
+
+.footer-copyright-text {
+}
+
+.footer-copyright-icon {
+  @apply inline
+  mr-1.5;
+}
+
+.footer-rights-reserved {
+}
+
 @media (max-width: 355px) {
   .footer-container {
     @apply space-y-6;
@@ -153,5 +171,15 @@
   .footer-social-links-list {
     @apply gap-3
     text-xl;
+  }
+
+  .footer-copyright {
+    @apply text-xs
+    space-y-0.5;
+  }
+
+  .footer-copyright-icon {
+    @apply inline
+    mr-1;
   }
 }
