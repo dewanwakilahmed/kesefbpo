@@ -7,7 +7,7 @@
   @apply grid
   grid-cols-1
   section-container
-  space-y-6
+  space-y-8
   tracking-wide;
 }
 
@@ -21,11 +21,11 @@
   @apply text-gray-300
   leading-tight
   pt-2
-  pb-5;
+  pb-6;
 }
 
 .footer-contact-info {
-  @apply space-y-4;
+  @apply space-y-6;
 }
 
 .footer-phone,
@@ -34,7 +34,7 @@
   flex-col
   justify-center
   items-center
-  space-y-2;
+  space-y-3;
 }
 
 .footer-phone-icon,
@@ -65,23 +65,23 @@
 .footer-social-links-heading {
   @apply uppercase
   text-gray-500
-  mb-1.5;
+  mb-3;
 }
 
 .footer-quick-links-list,
 .footer-services-links-list,
 .footer-industries-links-list,
 .footer-useful-links-list {
-  @apply space-y-1;
+  @apply space-y-2;
 }
 
 .footer-social-links-list {
   @apply flex
   flex-row
-  gap-2
+  gap-4
   items-center
   justify-center
-  text-xl;
+  text-2xl;
 }
 
 .footer-quick-link,
