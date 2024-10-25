@@ -110,7 +110,7 @@
     }
 
     .section-content-height {
-      @apply py-2.5;
+      @apply py-5;
     }
 
     .hero-headline {
