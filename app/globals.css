@@ -12,6 +12,15 @@
     2xl:px-14;
   }
 
+  .section-content-height {
+    @apply py-5
+    sm:py-6
+    md:py-8
+    lg:py-10
+    xl:py-12
+    2xl:py-14;
+  }
+
   .section-overlay {
     content: '';
     @apply absolute
@@ -24,7 +33,8 @@
     text-center
     max-w-[1200px]
     mx-auto
-    section-content-width;
+    section-content-width
+    section-content-height;
   }
 
   .hero {
@@ -97,6 +107,10 @@
   @media (max-width: 355px) {
     .section-content-width {
       @apply px-2.5;
+    }
+
+    .section-content-height {
+      @apply py-2.5;
     }
 
     .hero-headline {

@@ -7,9 +7,16 @@ import { primaryFont } from '@/public/fonts/fonts';
 // CSS
 import './company-logo.css';
 
-const CompanyLogo: FC = () => {
+interface CompanyLogoProps {
+  className: string;
+}
+
+const CompanyLogo: FC<CompanyLogoProps> = ({ className }) => {
   return (
-    <Link href="/" className={`company-logo ${primaryFont.className}`}>
+    <Link
+      href="/"
+      className={`${className} company-logo ${primaryFont.className}`}
+    >
       <span className="kesef">Kesef</span> <span className="bpo">Bpo</span>
     </Link>
   );

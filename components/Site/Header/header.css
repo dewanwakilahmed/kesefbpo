@@ -33,26 +33,6 @@
   animation: slide-down-fade-in 1s ease-out forwards;
 }
 
-.header-logo {
-  @apply tracking-widest;
-}
-
-.kesef {
-  @apply text-primary
-  font-[900]
-  text-2xl
-  lg:text-3xl
-  2xl:text-4xl;
-}
-
-.bpo {
-  @apply text-accent
-  font-[800]
-  text-lg
-  lg:text-xl
-  2xl:text-2xl;
-}
-
 .nav {
   @apply hidden
   lg:block
@@ -103,9 +83,10 @@
 }
 
 .mobile-nav-toggle-btn {
-  @apply justify-self-end
-  lg:hidden
-  size-8;
+  @apply text-3xl
+  stroke-[1px]
+  justify-self-end
+  lg:hidden;
 }
 
 .mobile-nav {
@@ -145,16 +126,9 @@
     rounded-lg;
   }
 
-  .kesef {
-    @apply text-2xl;
-  }
-
-  .bpo {
-    @apply text-lg;
-  }
-
   .mobile-nav-toggle-btn {
-    @apply size-6;
+    @apply text-2xl
+    stroke-[0.5px];
   }
 
   .mobile-nav {

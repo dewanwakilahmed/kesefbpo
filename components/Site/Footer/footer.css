@@ -1,3 +1,99 @@
 .footer {
-  @apply bg-red-200;
+  @apply bg-dark
+  text-light;
+}
+
+.footer-container {
+  @apply grid
+  grid-cols-1
+  section-container
+  space-y-6
+  tracking-wide;
+}
+
+.footer-company-info {
+}
+
+.footer-company-logo {
+}
+
+.footer-company-description {
+  @apply text-gray-300
+  leading-tight
+  pt-2
+  pb-5;
+}
+
+.footer-contact-info {
+  @apply space-y-4;
+}
+
+.footer-phone,
+.footer-email {
+  @apply flex
+  flex-col
+  justify-center
+  items-center
+  space-y-2;
+}
+
+.footer-phone-icon,
+.footer-email-icon {
+  @apply text-3xl
+  text-primary;
+}
+
+.footer-phone-number,
+.footer-email-address {
+  @apply font-[700]
+  text-accent;
+}
+
+.footer-quick-links,
+.footer-services-links,
+.footer-industries-links,
+.footer-useful-links,
+.footer-social-links {
+  @apply text-base
+  font-[700];
+}
+
+.footer-quick-links-heading,
+.footer-services-links-heading,
+.footer-industries-links-heading,
+.footer-useful-links-heading,
+.footer-social-links-heading {
+  @apply uppercase
+  text-gray-500
+  mb-1.5;
+}
+
+.footer-quick-links-list,
+.footer-services-links-list,
+.footer-industries-links-list,
+.footer-useful-links-list {
+  @apply space-y-1;
+}
+
+.footer-social-links-list {
+  @apply flex
+  flex-row
+  gap-2
+  items-center
+  justify-center
+  text-xl;
+}
+
+.footer-quick-link,
+.footer-service-link,
+.footer-industry-link,
+.footer-useful-link,
+.footer-social-link {
+  @apply text-gray-300;
+}
+
+@media (max-width: 355px) {
+  .footer-container {
+    @apply py-2.5;
+  }
 }

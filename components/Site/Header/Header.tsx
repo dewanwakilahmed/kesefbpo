@@ -5,10 +5,13 @@ import Link from 'next/link';
 import { primaryFont } from '@/public/fonts/fonts';
 
 // Icons
-import { Bars2Icon, XMarkIcon } from '@heroicons/react/24/solid';
+import { RiMenu3Fill, RiCloseFill } from 'react-icons/ri';
 
 // CSS
 import './header.css';
+
+// Component
+import CompanyLogo from '@/components/CompanyLogo/CompanyLogo';
 
 const Header: FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,11 +21,9 @@ const Header: FC = () => {
   };
 
   return (
-    <header className={`header ${primaryFont.className}`}>
-      <div className="header-container">
-        <Link href="/" className="header-logo">
-          <span className="kesef">KESEF</span> <span className="bpo">BPO</span>
-        </Link>
+    <header className="header">
+      <div className={`header-container ${primaryFont.className}`}>
+        <CompanyLogo className="header_container" />
 
         <nav className="nav">
           <ul className="nav-links">
@@ -53,12 +54,12 @@ const Header: FC = () => {
         </nav>
 
         {mobileMenuOpen ? (
-          <XMarkIcon
+          <RiCloseFill
             className="mobile-nav-toggle-btn"
             onClick={toggleMobileMenu}
           />
         ) : (
-          <Bars2Icon
+          <RiMenu3Fill
             className="mobile-nav-toggle-btn"
             onClick={toggleMobileMenu}
           />
