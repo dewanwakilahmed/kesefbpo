@@ -6,8 +6,7 @@
 .footer-container {
   @apply grid
   grid-cols-1
-  md:grid-cols-2
-  lg:grid-cols-4
+  gap-7
   section-container
   tracking-wide
   lg:tracking-wider
@@ -15,13 +14,6 @@
 }
 
 .footer-company-info {
-  @apply md:col-span-2
-  lg:col-span-4
-  lg:grid
-  lg:grid-cols-3;
-}
-
-.footer-company-seal {
 }
 
 .footer-company-logo {
@@ -34,14 +26,12 @@
   text-gray-300
   font-[300]
   leading-tight
-  pt-2
-  pb-6;
+  pt-1.5
+  pb-5;
 }
 
 .footer-contact-info {
-  @apply space-y-5
-  lg:grid
-  lg:grid-cols-2;
+  @apply space-y-4;
 }
 
 .footer-phone,
@@ -84,13 +74,9 @@
 }
 
 .footer-social-links {
-  @apply md:col-span-2
-  lg:col-span-4;
 }
 
 .footer-copyright {
-  @apply md:col-span-2
-  lg:col-span-4;
 }
 
 .footer-quick-links-heading,
@@ -109,7 +95,7 @@
 .footer-services-links-list,
 .footer-industries-links-list,
 .footer-useful-links-list {
-  @apply space-y-2
+  @apply space-y-2.5
   lg:space-y-3
   2xl:space-y-4;
 }
@@ -139,7 +125,7 @@
   lg:text-base
   2xl:text-lg
   tracking-widest
-  space-y-1
+  space-y-1.5
   lg:space-y-2
   2xl:space-y-3;
 }
