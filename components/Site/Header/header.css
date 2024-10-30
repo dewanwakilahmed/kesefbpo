@@ -4,7 +4,6 @@
   w-full
   left-0
   top-4
-  
   section-content-width;
 }
 
@@ -14,7 +13,7 @@
   transition
   backdrop-blur-sm
 
-  max-w-[1200px]
+  max-w-7xl
   mx-auto
   
   grid

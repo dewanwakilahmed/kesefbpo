@@ -281,7 +281,7 @@ const Footer: FC = () => {
         <div className="footer-copyright">
           <p className="footer-copyright-text">
             <RiCopyrightLine className="footer-copyright-icon" />
-            2023 - {new Date().getFullYear()} Kesef BPO
+            2023 - {new Date().getFullYear()} KESEF BPO
           </p>
           <p className="footer-rights-reserved">All rights reserved</p>
         </div>

@@ -30,11 +30,10 @@
 
   .section-container {
     @apply relative
-    text-center
-    max-w-[1200px]
+    max-w-7xl
     mx-auto
-    section-content-width
-    section-content-height;
+    section-content-height
+    section-content-width;
   }
 
   .hero {

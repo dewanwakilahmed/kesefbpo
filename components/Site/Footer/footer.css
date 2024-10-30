@@ -4,9 +4,17 @@
 }
 
 .footer-container {
-  @apply grid
+  @apply xl:px-2
+  text-center
+  md:text-left
+  grid
   grid-cols-1
+  md:grid-cols-2
+  lg:grid-cols-3
+  xl:grid-cols-5
   gap-7
+  lg:gap-9
+  2xl:gap-11
   section-container
   tracking-wide
   lg:tracking-wider
@@ -14,50 +22,58 @@
 }
 
 .footer-company-info {
+  @apply xl:col-span-5
+  xl:text-center
+  xl:mb-6;
 }
 
 .footer-company-logo {
 }
 
 .footer-company-description {
-  @apply text-base
-  lg:text-lg
-  2xl:text-xl
+  @apply text-sm
+  lg:text-base
+  2xl:text-lg
   text-gray-300
   font-[300]
   leading-tight
-  pt-1.5
-  pb-5;
+  pt-1
+  pb-4;
 }
 
 .footer-contact-info {
-  @apply space-y-4;
+  @apply space-y-4
+  lg:space-y-5
+  2xl:space-y-6;
 }
 
 .footer-phone,
 .footer-email {
   @apply flex
   flex-col
+  md:flex-row
   justify-center
+  md:justify-start
+  xl:justify-center
   items-center
-  space-y-2
-  lg:space-y-4
-  2xl:space-y-6;
+  gap-2
+  lg:gap-3
+  2xl:gap-4;
 }
 
 .footer-phone-icon,
 .footer-email-icon {
-  @apply text-4xl
-  lg:text-5xl
-  2xl:text-6xl
+  @apply text-2xl
+  lg:text-3xl
+  2xl:text-4xl
   text-primary;
 }
 
 .footer-phone-number,
 .footer-email-address {
-  @apply text-base
-  lg:text-lg
-  2xl:text-xl
+  @apply text-sm
+  lg:text-base
+  2xl:text-lg
   font-[700]
   text-accent;
 }
@@ -67,16 +83,13 @@
 .footer-industries-links,
 .footer-useful-links,
 .footer-social-links {
-  @apply text-base
-  lg:text-lg
-  2xl:text-xl
+  @apply text-sm
+  lg:text-base
+  2xl:text-lg
   font-[700];
 }
 
 .footer-social-links {
-}
-
-.footer-copyright {
 }
 
 .footer-quick-links-heading,
@@ -84,8 +97,7 @@
 .footer-industries-links-heading,
 .footer-useful-links-heading,
 .footer-social-links-heading {
-  @apply uppercase
-  text-gray-500
+  @apply text-gray-500
   mb-3
   lg:mb-4
   2xl:mb-5;
@@ -95,20 +107,23 @@
 .footer-services-links-list,
 .footer-industries-links-list,
 .footer-useful-links-list {
-  @apply space-y-2.5
-  lg:space-y-3
-  2xl:space-y-4;
+  @apply space-y-3
+  lg:space-y-4
+  2xl:space-y-5;
 }
 
 .footer-social-links-list {
   @apply flex
   flex-row
   gap-4
+  lg:gap-5
+  2xl:gap-6
   items-center
   justify-center
-  text-2xl
-  lg:text-3xl
-  2xl:text-4xl;
+  md:justify-start
+  text-xl
+  lg:text-2xl
+  2xl:text-3xl;
 }
 
 .footer-quick-link,
@@ -120,14 +135,19 @@
 }
 
 .footer-copyright {
-  @apply text-gray-500
+  @apply md:col-span-2
+  lg:col-span-3
+  xl:col-span-5
+  text-center
+  text-gray-500
+  font-[300]
   text-sm
   lg:text-base
   2xl:text-lg
-  tracking-widest
-  space-y-1.5
-  lg:space-y-2
-  2xl:space-y-3;
+  space-y-2
+  lg:space-y-3
+  2xl:space-y-4
+  xl:mt-6;
 }
 
 .footer-copyright-text {
@@ -135,7 +155,9 @@
 
 .footer-copyright-icon {
   @apply inline
-  mr-1.5;
+  mr-1.5
+  lg:mr-2
+  2xl:mr-2.5;
 }
 
 .footer-rights-reserved {
@@ -147,28 +169,28 @@
   }
 
   .footer-company-description {
-    @apply text-sm
-    pt-1
-    pb-3.5;
+    @apply text-xs
+    pt-0
+    pb-3;
   }
 
   .footer-contact-info {
-    @apply space-y-3.5;
+    @apply space-y-3;
   }
 
   .footer-phone,
   .footer-email {
-    @apply space-y-1.5;
+    @apply gap-1;
   }
 
   .footer-phone-icon,
   .footer-email-icon {
-    @apply text-3xl;
+    @apply text-xl;
   }
 
   .footer-phone-number,
   .footer-email-address {
-    @apply text-sm
+    @apply text-xs
     font-[600];
   }
 
@@ -177,7 +199,7 @@
   .footer-industries-links,
   .footer-useful-links,
   .footer-social-links {
-    @apply text-sm
+    @apply text-xs
     font-[600];
   }
 
@@ -186,7 +208,7 @@
   .footer-industries-links-heading,
   .footer-useful-links-heading,
   .footer-social-links-heading {
-    @apply mb-2.5;
+    @apply mb-2;
   }
 
   .footer-quick-links-list,
@@ -198,7 +220,7 @@
 
   .footer-social-links-list {
     @apply gap-3
-    text-xl;
+    text-lg;
   }
 
   .footer-copyright {
