@@ -8,10 +8,7 @@
 }
 
 .home-hero-container {
-  @apply section-container
-  text-center;
-
-  animation: slide-up-fade-in 1s ease-out forwards;
+  @apply hero-container;
 }
 
 .home-hero-headline {

@@ -46,6 +46,13 @@
     relative;
   }
 
+  .hero-container {
+    @apply section-container
+    text-center;
+
+    animation: slide-up-fade-in 1s ease-out forwards;
+  }
+
   .hero-headline {
     @apply text-gray-50
     font-[900]

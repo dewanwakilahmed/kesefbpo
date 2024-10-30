@@ -1,31 +1,29 @@
-  .contact-us-hero {
-    @apply hero
+.contact-us-hero {
+  @apply hero
     bg-[url('/images/contact-us-hero-bg.jpg')]
     bg-top;
-  }
+}
 
-  .contact-us-hero::before {
-    @apply section-overlay;
-  }
+.contact-us-hero::before {
+  @apply section-overlay;
+}
 
-  .contact-us-hero-container {
-    @apply section-container;
+.contact-us-hero-container {
+  @apply hero-container;
+}
 
-    animation: slide-up-fade-in 1s ease-out forwards;
-  }
+.contact-us-hero-headline {
+  @apply hero-headline;
+}
 
-  .contact-us-hero-headline {
-    @apply hero-headline;
-  }
+.contact-us-hero-subheadline {
+  @apply hero-subheadline;
+}
 
-  .contact-us-hero-subheadline {
-    @apply hero-subheadline;
-  }
+.contact-us-hero-description {
+  @apply hero-description;
+}
 
-  .contact-us-hero-description {
-    @apply hero-description;
-  }
-
-  .contact-us-hero-cta {
-    @apply hero-cta;
-  }
+.contact-us-hero-cta {
+  @apply hero-cta;
+}
