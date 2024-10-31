@@ -23,7 +23,7 @@ const ContactUsHero: FC = () => {
         </p>
         <div className="contact-us-hero-cta">
           <Link
-            href=""
+            href="/contact-us#contact-us-form"
             className={`contact-us-hero-btn btn btn-primary ${primaryFont.className}`}
           >
             Get in Touch

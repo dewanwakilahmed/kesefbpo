@@ -1,6 +1,5 @@
 .contact-us-form {
-  @apply bg-light
-  text-dark;
+  @apply bg-light;
 }
 
 .contact-us-form-container {
@@ -28,7 +27,10 @@
 
 .form {
   @apply grid
-  gap-4;
+  gap-4
+  bg-gray-200
+  rounded-xl
+  p-4;
 }
 
 .form-group {

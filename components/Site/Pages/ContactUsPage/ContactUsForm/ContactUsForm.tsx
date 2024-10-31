@@ -30,14 +30,14 @@ const ContactUsForm: FC = () => {
   };
 
   return (
-    <section className="contact-us-form">
+    <section className="contact-us-form" id="contact-us-form">
       <div className="contact-us-form-container">
         <h3 className={`contact-us-form-heading ${primaryFont.className}`}>
-          We’re Here to Help
+          We&apos;re Here to Help
         </h3>
         <p className="contact-us-form-description">
-          Let us know how we can assist. Whether it’s an inquiry, suggestion, or
-          request, we’ll respond within 24 hours
+          Let us know how we can assist. Whether it&apos;s an inquiry,
+          suggestion, or request, we&apos;ll respond within 24 hours
         </p>
         <form className="form" onSubmit={handleSubmit}>
           <div className="form-group">
