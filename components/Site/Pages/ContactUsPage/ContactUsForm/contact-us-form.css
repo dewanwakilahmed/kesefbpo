@@ -22,24 +22,26 @@
   text-gray-500
   leading-tight
   tracking-wider
-  mb-5;
+  mb-6;
 }
 
 .form {
   @apply grid
-  gap-4
+  gap-5
   bg-gray-200
-  rounded-2xl
-  p-4
+  rounded-xl
   shadow-md
+  hover:shadow-lg
+  p-4
   border
-  border-gray-300;
+  border-gray-300
+  transition;
 }
 
 .form-group {
   @apply flex
   flex-col
-  gap-2;
+  gap-2.5;
 }
 
 .form-label {
@@ -55,9 +57,9 @@
 .form-textarea {
   @apply text-center
   text-base
-  px-2
-  py-1
-  rounded-lg
+  px-3
+  py-1.5
+  rounded-xl
   border
   border-gray-400
   hover:border-gray-500
@@ -66,7 +68,8 @@
   shadow-inner
   focus:outline-none
   focus:ring-2
-  focus:ring-primary;
+  focus:ring-primary
+  transition;
 }
 
 .form-input::placeholder,
@@ -103,7 +106,9 @@
   .form {
     @apply gap-4
     p-3
-    rounded-md;
+    rounded-lg
+    shadow
+    hover:shadow-md;
   }
 
   .form-group {
@@ -120,7 +125,7 @@
     @apply text-sm
     px-2
     py-1
-    rounded-md
+    rounded-lg
     focus:ring-1;
   }
 
