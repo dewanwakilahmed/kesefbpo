@@ -29,8 +29,11 @@
   @apply grid
   gap-4
   bg-gray-200
-  rounded-xl
-  p-4;
+  rounded-2xl
+  p-4
+  shadow-md
+  border
+  border-gray-300;
 }
 
 .form-group {
@@ -54,11 +57,16 @@
   text-base
   px-2
   py-1
-  rounded-xl
+  rounded-lg
   border
-  border-gray-500
+  border-gray-400
+  hover:border-gray-500
   text-gray-800
-  tracking-wide;
+  tracking-wide
+  shadow-inner
+  focus:outline-none
+  focus:ring-2
+  focus:ring-primary;
 }
 
 .form-input::placeholder,
