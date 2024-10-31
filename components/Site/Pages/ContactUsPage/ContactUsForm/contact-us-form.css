@@ -88,3 +88,47 @@
 .form-btn {
   @apply mt-2;
 }
+
+@media (max-width: 355px) {
+  .contact-us-form-heading {
+    @apply text-lg
+    mb-1.5;
+  }
+
+  .contact-us-form-description {
+    @apply text-xs
+    mb-4;
+  }
+
+  .form {
+    @apply gap-4
+    p-3
+    rounded-md;
+  }
+
+  .form-group {
+    @apply gap-1.5;
+  }
+
+  .form-label {
+    @apply text-xs;
+  }
+
+  .form-input,
+  .form-select,
+  .form-textarea {
+    @apply text-sm
+    px-2
+    py-1
+    rounded-md
+    focus:ring-1;
+  }
+
+  .form-textarea {
+    @apply h-16;
+  }
+
+  .form-btn {
+    @apply mt-1;
+  }
+}
