@@ -8,31 +8,46 @@
 }
 
 .contact-us-form-heading {
-  @apply text-xl
+  @apply uppercase
+  text-2xl
+  lg:text-3xl
+  2xl:text-4xl
   font-[500]
   text-gray-600
   leading-tight
   tracking-widest
-  mb-3;
+  mb-3
+  lg:mb-4
+  2xl:mb-5;
 }
 
 .contact-us-form-description {
-  @apply text-sm
+  @apply text-base
+  lg:text-lg
+  2xl:text-xl
   font-[300]
   text-gray-500
   leading-tight
   tracking-wider
-  mb-6;
+  mb-6
+  lg:mb-7
+  2xl:mb-8;
 }
 
 .form {
   @apply grid
+  grid-cols-1
+  lg:grid-cols-2
   gap-5
+  lg:gap-6
+  2xl:gap-8
   bg-gray-200
   rounded-xl
   shadow-md
   hover:shadow-lg
   p-4
+  lg:p-6
+  2xl:p-8
   border
   border-gray-300
   transition;
@@ -41,11 +56,17 @@
 .form-group {
   @apply flex
   flex-col
-  gap-2.5;
+  gap-2.5
+  lg:gap-3
+  2xl:gap-4;
 }
 
 .form-label {
-  @apply text-sm
+  @apply text-center
+  lg:text-left
+  text-base
+  lg:text-lg
+  2xl:text-xl
   text-gray-800
   font-[600]
   tracking-widest
@@ -56,9 +77,16 @@
 .form-select,
 .form-textarea {
   @apply text-center
-  text-base
+  lg:text-left
+  text-lg
+  lg:text-xl
+  2xl:text-2xl
   px-3
+  lg:px-4
+  2xl:px-5
   py-1.5
+  lg:py-2
+  2xl:py-2.5
   rounded-xl
   border
   border-gray-400
@@ -85,21 +113,28 @@
 }
 
 .form-textarea {
-  @apply h-20;
+  @apply h-20
+  lg:h-24
+  2xl:h-28;
 }
 
 .form-btn {
-  @apply mt-2;
+  @apply mt-2
+  lg:mt-3
+  2xl:mt-4
+  lg:col-span-2
+  lg:w-min
+  lg:mx-auto;
 }
 
 @media (max-width: 355px) {
   .contact-us-form-heading {
-    @apply text-lg
+    @apply text-xl
     mb-1.5;
   }
 
   .contact-us-form-description {
-    @apply text-xs
+    @apply text-sm
     mb-4;
   }
 
@@ -116,13 +151,13 @@
   }
 
   .form-label {
-    @apply text-xs;
+    @apply text-sm;
   }
 
   .form-input,
   .form-select,
   .form-textarea {
-    @apply text-sm
+    @apply text-base
     px-2
     py-1
     rounded-lg

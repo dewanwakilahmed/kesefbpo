@@ -12,7 +12,7 @@ const ContactUsForm: FC = () => {
   const [form, setForm] = useState({
     fullName: '',
     companyName: '',
-    companyEmail: '',
+    email: '',
     phoneNumber: '',
     contactReason: 'general',
     message: '',
@@ -40,7 +40,7 @@ const ContactUsForm: FC = () => {
           suggestion, or request, we&apos;ll respond within 24 hours
         </p>
         <form className="form" onSubmit={handleSubmit}>
-          <div className="form-group">
+          <div className="form-group full-name-group">
             <label htmlFor="fullName" className="form-label">
               Full Name*
             </label>
@@ -56,7 +56,7 @@ const ContactUsForm: FC = () => {
             />
           </div>
 
-          <div className="form-group">
+          <div className="form-group company-name-group">
             <label htmlFor="companyName" className="form-label">
               Company Name
             </label>
@@ -71,15 +71,15 @@ const ContactUsForm: FC = () => {
             />
           </div>
 
-          <div className="form-group">
-            <label htmlFor="companyEmail" className="form-label">
+          <div className="form-group email-group">
+            <label htmlFor="email" className="form-label">
               Email*
             </label>
             <input
               type="email"
-              id="companyEmail"
-              name="companyEmail"
-              value={form.companyEmail}
+              id="email"
+              name="email"
+              value={form.email}
               onChange={handleChange}
               placeholder="you@email.com"
               className="form-input"
@@ -87,7 +87,7 @@ const ContactUsForm: FC = () => {
             />
           </div>
 
-          <div className="form-group">
+          <div className="form-group phone-number-group">
             <label htmlFor="phoneNumber" className="form-label">
               Phone Number
             </label>
@@ -102,7 +102,7 @@ const ContactUsForm: FC = () => {
             />
           </div>
 
-          <div className="form-group">
+          <div className="form-group contact-reason-group">
             <label htmlFor="contactReason" className="form-label">
               Reason for Contacting
             </label>
@@ -122,7 +122,7 @@ const ContactUsForm: FC = () => {
             </select>
           </div>
 
-          <div className="form-group">
+          <div className="form-group message-group">
             <label htmlFor="message" className="form-label">
               Tell Us How We Can Help
             </label>
@@ -131,14 +131,14 @@ const ContactUsForm: FC = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="Describe your needs here..."
+              placeholder="How can we assist you? Let us know!"
               className="form-textarea"
               required
             ></textarea>
           </div>
 
           <button type="submit" className="form-btn btn btn-primary">
-            Submit Inquiry
+            Submit
           </button>
         </form>
       </div>
