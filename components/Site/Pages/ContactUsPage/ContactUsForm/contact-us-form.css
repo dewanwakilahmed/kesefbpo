@@ -1,0 +1,80 @@
+.contact-us-form {
+  @apply bg-light
+  text-dark;
+}
+
+.contact-us-form-container {
+  @apply section-container
+  text-center;
+}
+
+.contact-us-form-heading {
+  @apply text-xl
+  font-[500]
+  text-gray-600
+  leading-tight
+  tracking-widest
+  mb-3;
+}
+
+.contact-us-form-description {
+  @apply text-sm
+  font-[300]
+  text-gray-500
+  leading-tight
+  tracking-wider
+  mb-5;
+}
+
+.form {
+  @apply grid
+  gap-4;
+}
+
+.form-group {
+  @apply flex
+  flex-col
+  gap-2;
+}
+
+.form-label {
+  @apply text-sm
+  text-gray-800
+  font-[600]
+  tracking-widest
+  uppercase;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  @apply text-center
+  text-base
+  px-2
+  py-1
+  rounded-xl
+  border
+  border-gray-500
+  text-gray-800
+  tracking-wide;
+}
+
+.form-input::placeholder,
+.form-select::placeholder,
+.form-textarea::placeholder {
+  @apply text-gray-400;
+}
+
+.form-input {
+}
+
+.form-select {
+}
+
+.form-textarea {
+  @apply h-20;
+}
+
+.form-btn {
+  @apply mt-2;
+}
