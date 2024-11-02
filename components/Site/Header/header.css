@@ -3,7 +3,7 @@
   z-10
   w-full
   left-0
-  top-4
+  top-3.5
   section-content-width;
 }
 
@@ -12,6 +12,7 @@
   hover:bg-light/100
   transition
   backdrop-blur-sm
+  border
 
   max-w-7xl
   mx-auto
@@ -22,8 +23,8 @@
   justify-center
   
   p-3
-  lg:p-5
-  2xl:p-7
+  lg:p-4
+  2xl:p-5
   
   rounded-xl
   shadow-xl
