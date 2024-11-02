@@ -39,7 +39,10 @@ const ContactUsForm: FC = () => {
           Let us know how we can assist. Whether it&apos;s an inquiry,
           suggestion, or request, we&apos;ll respond within 24 hours
         </p>
-        <form className="form" onSubmit={handleSubmit}>
+        <form
+          className={`form ${primaryFont.className}`}
+          onSubmit={handleSubmit}
+        >
           <div className="form-group full-name-group">
             <label htmlFor="fullName" className="form-label">
               Full Name*

@@ -113,9 +113,9 @@
 }
 
 .form-textarea {
-  @apply h-20
-  lg:h-24
-  2xl:h-28;
+  @apply h-24
+  lg:h-28
+  2xl:h-32;
 }
 
 .form-btn {
@@ -165,7 +165,7 @@
   }
 
   .form-textarea {
-    @apply h-16;
+    @apply h-20;
   }
 
   .form-btn {

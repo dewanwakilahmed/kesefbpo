@@ -1,17 +1,14 @@
 .footer {
-  @apply bg-dark
-  text-light;
+  @apply bg-dark;
 }
 
 .footer-container {
-  @apply xl:px-2
-  text-center
+  @apply text-center
   md:text-left
   grid
   grid-cols-1
   md:grid-cols-2
   lg:grid-cols-3
-  xl:grid-cols-5
   gap-7
   lg:gap-9
   2xl:gap-11
@@ -22,9 +19,6 @@
 }
 
 .footer-company-info {
-  @apply xl:col-span-5
-  xl:text-center
-  xl:mb-6;
 }
 
 .footer-company-logo {
@@ -54,7 +48,6 @@
   md:flex-row
   justify-center
   md:justify-start
-  xl:justify-center
   items-center
   gap-2
   lg:gap-3
@@ -137,7 +130,6 @@
 .footer-copyright {
   @apply md:col-span-2
   lg:col-span-3
-  xl:col-span-5
   text-center
   text-gray-500
   font-[300]
@@ -146,8 +138,7 @@
   2xl:text-lg
   space-y-2
   lg:space-y-3
-  2xl:space-y-4
-  xl:mt-6;
+  2xl:space-y-4;
 }
 
 .footer-copyright-text {
