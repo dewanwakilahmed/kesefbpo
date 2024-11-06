@@ -14,16 +14,16 @@ import {
 // CSS
 import './company-contact-info.css';
 
-const CompanyContactInformation: FC = () => {
+const CompanyContactInfo: FC = () => {
   return (
     <section className="company-contact-info">
       <div className="company-contact-info-container">
         <h2 className={`company-contact-info-heading ${primaryFont.className}`}>
-          Get in Touch with Us Directly
+          Reach Out to Us Directly
         </h2>
         <p className="company-contact-info-description">
-          Reach out for business inquiries or support; we&apos;re here to
-          provide prompt assistance
+          Have questions or need assistance? Reach out directly for quick and
+          personalized support
         </p>
 
         <div className={`company-contact-details ${primaryFont.className}`}>
@@ -65,7 +65,6 @@ const CompanyContactInformation: FC = () => {
                   width="100%"
                   src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Sector 12, Uttara, Dhaka&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 ></iframe>
-                <a href="https://joy.link/fmhybak">fmhy</a>
               </div>
             </div>
           </div>
@@ -75,4 +74,4 @@ const CompanyContactInformation: FC = () => {
   );
 };
 
-export default CompanyContactInformation;
+export default CompanyContactInfo;

@@ -37,8 +37,13 @@
 .company-contact-details {
   @apply grid
   grid-cols-1
+  md:grid-cols-3
   gap-5
-  mb-5;
+  lg:gap-6
+  2xl:gap-7
+  mb-5
+  lg:mb-6
+  2xl:mb-7;
 }
 
 .company-contact-email,
@@ -47,17 +52,20 @@
 .company-location-address {
   @apply flex
   flex-col
-  justify-center
   items-center
   text-gray-100
-  gap-2;
+  gap-2
+  lg:gap-3
+  2xl:gap-4;
 }
 
 .company-contact-email-icon,
 .company-contact-phone-icon,
 .company-contact-hours-icon,
 .company-location-address-icon {
-  @apply text-2xl;
+  @apply text-2xl
+  lg:text-3xl
+  2xl:text-4xl;
 }
 
 .company-contact-email-address,
@@ -65,12 +73,16 @@
 .company-contact-hours-details,
 .company-location-address-details {
   @apply text-base
+  lg:text-lg
+  2xl:text-2xl
   tracking-wider
   font-[600];
 }
 
 .company-location {
-  @apply space-y-5;
+  @apply space-y-5
+  lg:space-y-6
+  2xl:space-y-7;
 }
 
 .mapouter {
