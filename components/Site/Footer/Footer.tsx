@@ -172,110 +172,107 @@ const Footer: FC = () => {
               Empowering your business with top-notch outsourcing solutions
             </p>
           </div>
-          <address className="footer-contact-info">
-            <p className="footer-phone">
-              <RiPhoneFill className="footer-phone-icon" />
-              <a className="footer-phone-number" href="tel:+12345678900">
-                +1 (234) 567-8900
-              </a>
-            </p>
-            <p className="footer-email">
-              <RiMailFill className="footer-email-icon" />
-              <a
-                className="footer-email-address"
-                href="mailto:info@kesefbpo.com"
-              >
-                info@kesefbpo.com
-              </a>
-            </p>
-          </address>
+          <p className="footer-phone">
+            <RiPhoneFill className="footer-phone-icon" />
+            <a className="footer-phone-number" href="tel:+12345678900">
+              +1 (234) 567-8900
+            </a>
+          </p>
+          <p className="footer-email">
+            <RiMailFill className="footer-email-icon" />
+            <a className="footer-email-address" href="mailto:info@kesefbpo.com">
+              info@kesefbpo.com
+            </a>
+          </p>
         </div>
 
-        <div className="footer-quick-links">
-          <h4 className="footer-quick-links-heading">Quick Links</h4>
-          <ul className="footer-quick-links-list">
-            {quickLinks.map((link, index) => (
-              <li
-                key={`footer-quick-link-${index}`}
-                className="footer-quick-links-list-item"
-              >
-                <Link className="footer-quick-link" href={link.href}>
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="footer-services-links">
-          <h4 className="footer-services-links-heading">Services We Offer</h4>
-          <ul className="footer-services-links-list">
-            {servicesLinks.map((link, index) => (
-              <li
-                key={`footer-services-link-${index}`}
-                className="footer-services-links-list-item"
-              >
-                <Link className="footer-service-link" href={link.href}>
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="footer-industries-links">
-          <h4 className="footer-industries-links-heading">
-            Industries We Serve
-          </h4>
-          <ul className="footer-industries-links-list">
-            {industriesLinks.map((link, index) => (
-              <li
-                key={`footer-industries-link-${index}`}
-                className="footer-industries-links-list-item"
-              >
-                <Link className="footer-industry-link" href={link.href}>
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="footer-useful-links">
-          <h4 className="footer-useful-links-heading">Useful Links</h4>
-          <ul className="footer-useful-links-list">
-            {usefulLinks.map((link, index) => (
-              <li
-                key={`footer-useful-link-${index}`}
-                className="footer-useful-links-list-item"
-              >
-                <Link className="footer-useful-link" href={link.href}>
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="footer-social-links">
-          <h4 className="footer-social-links-heading">Follow Us</h4>
-          <ul className="footer-social-links-list">
-            {socialLinks.map((link, index) => (
-              <li
-                key={`footer-social-link-${index}`}
-                className="footer-social-links-list-item"
-              >
-                <a
-                  className="footer-social-link"
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+        <div className="footer-links">
+          <div className="footer-quick-links">
+            <h4 className="footer-quick-links-heading">Quick Links</h4>
+            <ul className="footer-quick-links-list">
+              {quickLinks.map((link, index) => (
+                <li
+                  key={`footer-quick-link-${index}`}
+                  className="footer-quick-links-list-item"
                 >
-                  {link.icon}
-                </a>
-              </li>
-            ))}
-          </ul>
+                  <Link className="footer-quick-link" href={link.href}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="footer-services-links">
+            <h4 className="footer-services-links-heading">Services We Offer</h4>
+            <ul className="footer-services-links-list">
+              {servicesLinks.map((link, index) => (
+                <li
+                  key={`footer-services-link-${index}`}
+                  className="footer-services-links-list-item"
+                >
+                  <Link className="footer-service-link" href={link.href}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="footer-industries-links">
+            <h4 className="footer-industries-links-heading">
+              Industries We Serve
+            </h4>
+            <ul className="footer-industries-links-list">
+              {industriesLinks.map((link, index) => (
+                <li
+                  key={`footer-industries-link-${index}`}
+                  className="footer-industries-links-list-item"
+                >
+                  <Link className="footer-industry-link" href={link.href}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="footer-useful-links">
+            <h4 className="footer-useful-links-heading">Useful Links</h4>
+            <ul className="footer-useful-links-list">
+              {usefulLinks.map((link, index) => (
+                <li
+                  key={`footer-useful-link-${index}`}
+                  className="footer-useful-links-list-item"
+                >
+                  <Link className="footer-useful-link" href={link.href}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="footer-social-links">
+            <h4 className="footer-social-links-heading">Follow Us</h4>
+            <ul className="footer-social-links-list">
+              {socialLinks.map((link, index) => (
+                <li
+                  key={`footer-social-link-${index}`}
+                  className="footer-social-links-list-item"
+                >
+                  <a
+                    className="footer-social-link"
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {link.icon}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
 
         <div className="footer-copyright">

@@ -3,27 +3,22 @@
 }
 
 .footer-container {
-  @apply section-container
-  lg:text-left
+  @apply text-center
+  md:text-left
+  grid
+  grid-cols-1
+  md:grid-cols-2
+  lg:grid-cols-3
+  gap-7
+  lg:gap-9
+  2xl:gap-11
+  section-container
   tracking-wide
   lg:tracking-wider
-  2xl:tracking-widest
-  space-y-8
-  lg:space-y-10
-  2xl:space-y-12;
+  2xl:tracking-widest;
 }
 
 .footer-company-info {
-  @apply flex
-  flex-col
-  lg:flex-row
-  justify-between
-  gap-3
-  lg:gap-4
-  2xl:gap-5;
-}
-
-.footer-company-seal {
 }
 
 .footer-company-logo {
@@ -31,26 +26,32 @@
 
 .footer-company-description {
   @apply text-sm
-  lg:max-w-52
-  2xl:max-w-64
   lg:text-base
   2xl:text-lg
   text-gray-300
   font-[300]
   leading-tight
   pt-1
-  pb-1;
+  pb-4;
+}
+
+.footer-contact-info {
+  @apply space-y-4
+  lg:space-y-5
+  2xl:space-y-6;
 }
 
 .footer-phone,
 .footer-email {
   @apply flex
   flex-col
+  md:flex-row
   justify-center
+  md:justify-start
   items-center
-  gap-1.5
-  lg:gap-2
-  2xl:gap-3;
+  gap-2
+  lg:gap-3
+  2xl:gap-4;
 }
 
 .footer-phone-icon,
@@ -70,14 +71,6 @@
   text-accent;
 }
 
-.footer-links {
-  @apply flex
-  flex-col
-  gap-6
-  lg:flex-row
-  justify-between;
-}
-
 .footer-quick-links,
 .footer-services-links,
 .footer-industries-links,
@@ -89,6 +82,9 @@
   font-[700];
 }
 
+.footer-social-links {
+}
+
 .footer-quick-links-heading,
 .footer-services-links-heading,
 .footer-industries-links-heading,
@@ -97,8 +93,7 @@
   @apply text-gray-500
   mb-3
   lg:mb-4
-  2xl:mb-5
-  whitespace-nowrap;
+  2xl:mb-5;
 }
 
 .footer-quick-links-list,
@@ -113,13 +108,12 @@
 .footer-social-links-list {
   @apply flex
   flex-row
-  lg:flex-col
   gap-4
   lg:gap-5
   2xl:gap-6
   items-center
-  lg:items-start
   justify-center
+  md:justify-start
   text-xl
   lg:text-2xl
   2xl:text-3xl;
@@ -134,7 +128,9 @@
 }
 
 .footer-copyright {
-  @apply text-center
+  @apply md:col-span-2
+  lg:col-span-3
+  text-center
   text-gray-500
   font-[300]
   text-sm
@@ -146,15 +142,13 @@
 }
 
 .footer-copyright-text {
-  @apply flex
-  items-center
-  justify-center
-  gap-1
-  lg:gap-1.5
-  2xl:gap-2;
 }
 
 .footer-copyright-icon {
+  @apply inline
+  mr-1.5
+  lg:mr-2
+  2xl:mr-2.5;
 }
 
 .footer-rights-reserved {
@@ -162,17 +156,17 @@
 
 @media (max-width: 355px) {
   .footer-container {
-    @apply space-y-6;
-  }
-
-  .footer-company-info {
-    @apply gap-2;
+    @apply gap-5;
   }
 
   .footer-company-description {
     @apply text-xs
-    pt-0.5
-    pb-0.5;
+    pt-0
+    pb-3;
+  }
+
+  .footer-contact-info {
+    @apply space-y-3;
   }
 
   .footer-phone,
@@ -189,10 +183,6 @@
   .footer-email-address {
     @apply text-xs
     font-[600];
-  }
-
-  .footer-links {
-    @apply gap-4;
   }
 
   .footer-quick-links,
@@ -229,7 +219,8 @@
     space-y-1;
   }
 
-  .footer-copyright-text {
-    @apply gap-0.5;
+  .footer-copyright-icon {
+    @apply inline
+    mr-1;
   }
 }
