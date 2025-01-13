@@ -48,8 +48,7 @@
   }
 
   .hero-container {
-    @apply section-container
-    text-center;
+    @apply section-container;
 
     animation: slide-up-fade-in 1s ease-out forwards;
   }
@@ -73,7 +72,7 @@
 
   .hero-subheadline {
     @apply text-gray-200
-    font-[500]
+    font-[700]
     tracking-wider
     leading-tight
     text-xl
@@ -89,7 +88,7 @@
 
   .hero-description {
     @apply text-gray-300
-    font-[300]
+    font-[500]
     tracking-wide
     leading-tight
     text-base
@@ -151,8 +150,7 @@
 
   antialiased
   
-  shadow-xl
-  rounded-lg;
+  shadow-xl;
 }
 
 .btn {
