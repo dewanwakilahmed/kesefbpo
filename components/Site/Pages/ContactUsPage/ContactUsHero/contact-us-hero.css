@@ -1,6 +1,6 @@
 .contact-us-hero {
   @apply hero
-    bg-[url('/images/contact-us-hero-bg.jpg')]
+    bg-[url('/images/contact-us-hero-bg.webp')]
     bg-top;
 }
 
