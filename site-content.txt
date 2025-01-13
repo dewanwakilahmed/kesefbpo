@@ -1,0 +1,56 @@
+Kesef BPO is a Business Process Outsourcing Project.
+
+We need to develop a Website and a Dashboard App.
+
+Website Content Structure
+-------------------------
+
+PAGES:
+1. Home Page
+2. About Us Page
+  2.1. Meet The Team Page
+  2.2. Company Culture Page
+3. Services Page
+4. Industries Page
+5. Careers Page
+6. Contact Us Page
+
+SECTIONS:
+1. Home Page
+1.a. Home Hero
+
+6. Contact Us Page
+6.a. Contact Us Hero
+6.b. Contact Us Form
+6.c. Company Contact Info
+
+CONTENT:
+1. Home Page
+1.a. Home Hero Section
+1.a.i. Headline: "Streamline Operations. Accelerate Growth."
+1.a.ii. Subheadline: "Let KESEF BPO Power Your Business Growth"
+1.a.iii. Home Hero Description: "We handle the complex tasks so you can focus on what matters most —
+          growing your business"
+1.a.iv. Home Hero CTA:
+1.a.iv.I. "Get Started" button (links to kesefbpo.com/contact-us)
+1.a.iv.II. "Explore Our Services" button (links to kesefbpo.com/services)
+
+6. Contact Us Page
+6.a. Contact Us Hero Section
+6.a.i. Headline: "Let&apos;s Talk Business"
+6.a.ii. Subheadline: "Get in Touch with Our Team Today"
+6.a.iii. Contact Us Hero Description: "From operational support to outsourcing solutions, we&apos;re here to
+          make your business run smoother"
+6.a.iv. Contact Us Hero CTA
+6.a.iv.I. "Get in Touch" button (links to kesefbpo.com/contact-us#contact-us-form)
+6.b.Contact Us Form Section
+6.b.i. Contact Us Form Heading: "We&apos;re Here to Help"
+6.b.ii. Contact Us Form Description: "Let us know how we can assist. Whether it&apos;s an inquiry,
+          suggestion, or request, we&apos;ll respond within 24 hours"
+6.b.iii. Contact Us Form: Full Name, Company Name, Email, Phone Number, Reason for Contacting, Tell Us How We Can Help
+6.c. Company Contact Info Section
+6.c.i. Company Contact Info Heading: "Reach Out to Us Directly"
+6.c.ii. Company Contact Info Description: "Have questions or need assistance? Reach out directly for quick and
+          personalized support"
+6.c.iii. Company Contact Details: Email, Phone, Hours
+6.c.iv. Company Location: Company Location Address, Company Location Map
