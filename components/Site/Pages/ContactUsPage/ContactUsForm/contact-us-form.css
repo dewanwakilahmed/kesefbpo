@@ -3,8 +3,7 @@
 }
 
 .contact-us-form-container {
-  @apply section-container
-  text-center;
+  @apply section-container;
 }
 
 .contact-us-form-heading {
