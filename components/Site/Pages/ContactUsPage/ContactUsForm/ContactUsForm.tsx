@@ -107,7 +107,7 @@ const ContactUsForm: FC = () => {
 
           <div className="form-group contact-reason-group">
             <label htmlFor="contactReason" className="form-label">
-              Reason for Contacting
+              Reason for Contacting*
             </label>
             <select
               id="contactReason"
@@ -136,7 +136,6 @@ const ContactUsForm: FC = () => {
               onChange={handleChange}
               placeholder="How can we assist you? Let us know!"
               className="form-textarea"
-              required
             ></textarea>
           </div>
 
