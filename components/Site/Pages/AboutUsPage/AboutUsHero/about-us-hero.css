@@ -1,0 +1,28 @@
+.about-us-hero {
+  @apply hero
+  bg-[url('/images/about-us-hero-bg.jpg')];
+}
+
+.about-us-hero::before {
+  @apply section-overlay;
+}
+
+.about-us-hero-container {
+  @apply hero-container;
+}
+
+.about-us-hero-headline {
+  @apply hero-headline;
+}
+
+.about-us-hero-subheadline {
+  @apply hero-subheadline;
+}
+
+.about-us-hero-description {
+  @apply hero-description;
+}
+
+.about-us-hero-cta {
+  @apply hero-cta;
+}
