@@ -5,7 +5,7 @@ import type { Metadata, Viewport } from 'next';
 import Layout from '@/components/Layout';
 
 // Font
-import { secondaryFont } from '@/public/fonts/fonts';
+import { primaryFont } from '@/public/fonts/fonts';
 
 // CSS
 import './globals.css';
@@ -26,7 +26,7 @@ interface RootLayoutProps {
 const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
-      <body className={`body ${secondaryFont.className}`}>
+      <body className={`body ${primaryFont.className}`}>
         <Layout>{children}</Layout>
       </body>
     </html>

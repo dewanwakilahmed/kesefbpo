@@ -3,7 +3,7 @@
 import React, { FC, useState, ChangeEvent, FormEvent } from 'react';
 
 // Font
-import { primaryFont } from '@/public/fonts/fonts';
+import { secondaryFont } from '@/public/fonts/fonts';
 
 // CSS
 import './contact-us-form.css';
@@ -32,7 +32,7 @@ const ContactUsForm: FC = () => {
   return (
     <section className="contact-us-form" id="contact-us-form">
       <div className="contact-us-form-container">
-        <h3 className={`contact-us-form-heading ${primaryFont.className}`}>
+        <h3 className={`contact-us-form-heading ${secondaryFont.className}`}>
           We&apos;re Here to Help
         </h3>
         <p className="contact-us-form-description">
@@ -40,7 +40,7 @@ const ContactUsForm: FC = () => {
           suggestion, or request, we&apos;ll respond within 24 hours
         </p>
         <form
-          className={`form ${primaryFont.className}`}
+          className={`form ${secondaryFont.className}`}
           onSubmit={handleSubmit}
         >
           <div className="form-group full-name-group">

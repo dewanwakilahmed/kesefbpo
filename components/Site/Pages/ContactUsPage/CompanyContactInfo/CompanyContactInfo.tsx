@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 // Font
-import { primaryFont } from '@/public/fonts/fonts';
+import { secondaryFont } from '@/public/fonts/fonts';
 
 // Icons
 import {
@@ -18,7 +18,9 @@ const CompanyContactInfo: FC = () => {
   return (
     <section className="company-contact-info">
       <div className="company-contact-info-container">
-        <h2 className={`company-contact-info-heading ${primaryFont.className}`}>
+        <h2
+          className={`company-contact-info-heading ${secondaryFont.className}`}
+        >
           Reach Out to Us Directly
         </h2>
         <p className="company-contact-info-description">
@@ -26,7 +28,7 @@ const CompanyContactInfo: FC = () => {
           personalized support
         </p>
 
-        <div className={`company-contact-details ${primaryFont.className}`}>
+        <div className={`company-contact-details ${secondaryFont.className}`}>
           <div className="company-contact-email">
             <FaEnvelope className="company-contact-email-icon" />
             <p>
@@ -50,7 +52,7 @@ const CompanyContactInfo: FC = () => {
           </div>
         </div>
 
-        <div className={`company-location ${primaryFont.className}`}>
+        <div className={`company-location ${secondaryFont.className}`}>
           <div className="company-location-address">
             <FaMapMarkerAlt className="company-location-address-icon" />
             <p className="company-location-address-details">
