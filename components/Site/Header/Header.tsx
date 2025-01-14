@@ -44,8 +44,8 @@ const Header: FC = () => {
             </li>
             <li>
               <Link
-                className="header-nav-cta btn btn-primary"
                 href="/contact-us"
+                className="header-nav-cta btn btn-primary"
               >
                 Contact Us
               </Link>
@@ -96,8 +96,8 @@ const Header: FC = () => {
               </li>
               <li className="mobile-nav-link mobile-nav-cta">
                 <Link
-                  className="btn btn-primary"
                   href="/contact-us"
+                  className="btn btn-primary"
                   onClick={toggleMobileMenu}
                 >
                   Contact Us
