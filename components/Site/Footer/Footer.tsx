@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import Link from 'next/link';
 
 // Font
-import { primaryFont } from '@/public/fonts/fonts';
+import { secondaryFont } from '@/public/fonts/fonts';
 
 // Icons
 import {
@@ -164,7 +164,7 @@ const socialLinks = [
 const Footer: FC = () => {
   return (
     <footer className="footer">
-      <div className={`footer-container ${primaryFont.className}`}>
+      <div className={`footer-container ${secondaryFont.className}`}>
         <div className="footer-company-info">
           <div className="footer-company-seal">
             <CompanyLogo className="footer-company-logo" />

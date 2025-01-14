@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import Link from 'next/link';
 
 // Font
-import { primaryFont } from '@/public/fonts/fonts';
+import { secondaryFont } from '@/public/fonts/fonts';
 
 // CSS
 import './company-logo.css';
@@ -15,7 +15,7 @@ const CompanyLogo: FC<CompanyLogoProps> = ({ className }) => {
   return (
     <Link
       href="/"
-      className={`${className} company-logo ${primaryFont.className}`}
+      className={`${className} company-logo ${secondaryFont.className}`}
     >
       <span className="kesef">Kesef</span> <span className="bpo">Bpo</span>
     </Link>

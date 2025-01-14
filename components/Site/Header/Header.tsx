@@ -2,7 +2,7 @@ import React, { FC, useState } from 'react';
 import Link from 'next/link';
 
 // Font
-import { primaryFont } from '@/public/fonts/fonts';
+import { secondaryFont } from '@/public/fonts/fonts';
 
 // Icons
 import { RiMenu3Fill, RiCloseFill } from 'react-icons/ri';
@@ -22,7 +22,7 @@ const Header: FC = () => {
 
   return (
     <header className="header">
-      <div className={`header-container ${primaryFont.className}`}>
+      <div className={`header-container ${secondaryFont.className}`}>
         <CompanyLogo className="header_container" />
 
         <nav className="nav">
