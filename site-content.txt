@@ -1,7 +1,5 @@
 Kesef BPO is a Business Process Outsourcing Project.
 
-We need to develop a Website and a Dashboard App.
-
 Website Content Structure
 -------------------------
 
