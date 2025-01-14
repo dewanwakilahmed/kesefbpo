@@ -1,6 +1,6 @@
 .about-us-hero {
   @apply hero
-  bg-[url('/images/about-us-hero-bg.jpg')];
+  bg-[url('/images/about-us-hero-bg.webp')];
 }
 
 .about-us-hero::before {
