@@ -35,6 +35,15 @@ CONTENT:
 1.a.iv.I. "Get Started" button (links to kesefbpo.com/contact-us)
 1.a.iv.II. "Explore Our Services" button (links to kesefbpo.com/services)
 
+2. About Us Page
+2.a. About Us Hero Section
+2.a.i. Headline: "Empowering Businesses with Outsourcing Excellence"
+2.a.ii. Subheadline: "Discover Our Story, Values, and Commitment to Your Success"
+2.a.iii. About Us Hero Description: "At Kesef BPO, we’re more than just an outsourcing partner — we’re an extension of your team. Our mission is to help your business thrive by providing innovative solutions, unmatched expertise, and a dedication to delivering results"
+2.a.iv. About Us Hero CTA:
+2.a.iv.I. "Meet the Team" button (links to kesefbpo.com/about-us/meet-the-team)
+2.a.iv.II. "Company Culture" button (links to kesefbpo.com/about-us/company-culture)
+
 6. Contact Us Page
 6.a. Contact Us Hero Section
 6.a.i. Headline: "Let&apos;s Talk Business"
