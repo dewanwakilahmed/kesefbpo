@@ -12,16 +12,14 @@ const AboutUsHero: FC = () => {
     <section className="about-us-hero">
       <div className="about-us-hero-container">
         <h1 className={`about-us-hero-headline ${secondaryFont.className}`}>
-          Empowering Businesses with Outsourcing Excellence
+          Outsourcing Excellence for Your Business
         </h1>
         <h2 className={`about-us-hero-subheadline ${secondaryFont.className}`}>
-          Discover Our Story, Values, and Commitment to Your Success
+          Our Story, Values, and Commitment to Success
         </h2>
         <p className="about-us-hero-description">
-          At Kesef BPO, we&apos;re more than just an outsourcing partner —
-          we&apos;re an extension of your team. Our mission is to help your
-          business thrive by providing innovative solutions, unmatched
-          expertise, and a dedication to delivering results
+          Kesef BPO is your trusted partner, offering innovative solutions and
+          expertise to help your business thrive
         </p>
         <div className="about-us-hero-cta">
           <Link

@@ -35,9 +35,9 @@ CONTENT:
 
 2. About Us Page
 2.a. About Us Hero Section
-2.a.i. Headline: "Empowering Businesses with Outsourcing Excellence"
-2.a.ii. Subheadline: "Discover Our Story, Values, and Commitment to Your Success"
-2.a.iii. About Us Hero Description: "At Kesef BPO, we’re more than just an outsourcing partner — we’re an extension of your team. Our mission is to help your business thrive by providing innovative solutions, unmatched expertise, and a dedication to delivering results"
+2.a.i. Headline: "Outsourcing Excellence for Your Business"
+2.a.ii. Subheadline: "Our Story, Values, and Commitment to Success"
+2.a.iii. About Us Hero Description: "Kesef BPO is your trusted partner, offering innovative solutions and expertise to help your business thrive"
 2.a.iv. About Us Hero CTA:
 2.a.iv.I. "Meet the Team" button (links to kesefbpo.com/about-us/meet-the-team)
 2.a.iv.II. "Company Culture" button (links to kesefbpo.com/about-us/company-culture)
