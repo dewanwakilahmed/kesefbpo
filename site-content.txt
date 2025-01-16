@@ -17,6 +17,10 @@ SECTIONS:
 1. Home Page
 1.a. Home Hero
 
+2. About Us Page
+2.a. About Us Hero
+2.b. About Us Introduction
+
 6. Contact Us Page
 6.a. Contact Us Hero
 6.b. Contact Us Form
@@ -41,6 +45,13 @@ CONTENT:
 2.a.iv. About Us Hero CTA:
 2.a.iv.I. "Meet the Team" button (links to kesefbpo.com/about-us/meet-the-team)
 2.a.iv.II. "Company Culture" button (links to kesefbpo.com/about-us/company-culture)
+2.b. About Us Introduction Section
+2.b.i. About Us Introduction Heading: "Driving Business Growth with Tailored BPO Solutions"
+2.b.ii. About Us Introduction Description: "Comprehensive outsourcing services designed to streamline operations and fuel your business success"
+2.b.iii. About Us Introduction Text: "At KESEF BPO, we specialize in delivering comprehensive business process outsourcing solutions designed to help businesses thrive. Our current services include Lead Generation, Sales & Telemarketing, Back Office Support, Virtual Assistance, and Customer Support.
+Looking ahead, we're excited to gradually expand into IT & Technical Support, Web Development, App Development, and Digital Marketing, ensuring we provide holistic solutions to support your business at every stage of growth."
+2.b.iv. About Us Introduction CTA
+2.b.iv.I. "Explore Our Services" button (links to kesefbpo.com/services)
 
 6. Contact Us Page
 6.a. Contact Us Hero Section
