@@ -1,0 +1,131 @@
+.about-us-mission-vision {
+  @apply bg-mutedIndigo;
+}
+
+.about-us-mission-vision-container {
+  @apply section-container;
+}
+
+.about-us-mission-vision-heading {
+  @apply uppercase
+  text-2xl
+  lg:text-3xl
+  2xl:text-4xl
+  font-[500]
+  text-gray-600
+  leading-tight
+  tracking-widest
+  mb-3
+  lg:mb-4
+  2xl:mb-5;
+}
+
+.about-us-mission-vision-description {
+  @apply text-base
+  lg:text-lg
+  2xl:text-xl
+  font-[300]
+  text-gray-500
+  leading-tight
+  tracking-wider
+  mb-6
+  lg:mb-7
+  2xl:mb-8;
+}
+
+.about-us-mission-vision-content {
+  @apply flex
+  flex-col
+  md:flex-row
+  gap-6
+  lg:gap-8
+  2xl:gap-10;
+}
+
+.about-us-mission,
+.about-us-vision {
+  @apply bg-cover
+  rounded-xl
+  shadow-xl
+  hover:shadow-2xl
+  transition
+  p-6
+  lg:p-8
+  2xl:p-10
+  relative
+  overflow-hidden;
+}
+
+.about-us-mission::before,
+.about-us-vision::before {
+  @apply section-overlay;
+}
+
+.about-us-mission {
+  @apply bg-[url('/images/about-us-mission-bg.webp')];
+}
+
+.about-us-vision {
+  @apply bg-[url('/images/about-us-vision-bg.webp')];
+}
+
+.about-us-mission-content,
+.about-us-vision-content {
+  @apply relative
+  text-white;
+}
+
+.about-us-mission-heading,
+.about-us-vision-heading {
+  @apply text-xl
+  lg:text-2xl
+  2xl:text-3xl
+  font-[600]
+  tracking-widest
+  mb-3
+  lg:mb-4
+  2xl:mb-5;
+}
+
+.about-us-mission-statement,
+.about-us-vision-statement {
+  @apply text-center
+  lg:text-justify
+  text-base
+  lg:text-lg
+  2xl:text-xl
+  leading-loose
+  tracking-widest;
+}
+
+@media (max-width: 355px) {
+  .about-us-mission-vision-heading {
+    @apply text-xl
+    mb-1.5;
+  }
+
+  .about-us-mission-vision-description {
+    @apply text-sm
+    mb-4;
+  }
+
+  .about-us-mission-vision-content {
+    @apply gap-4;
+  }
+
+  .about-us-mission,
+  .about-us-vision {
+    @apply p-4;
+  }
+
+  .about-us-mission-heading,
+  .about-us-vision-heading {
+    @apply text-lg
+    mb-1.5;
+  }
+
+  .about-us-mission-statement,
+  .about-us-vision-statement {
+    @apply text-sm;
+  }
+}
