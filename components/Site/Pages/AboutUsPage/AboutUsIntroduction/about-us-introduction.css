@@ -1,0 +1,75 @@
+.about-us-introduction {
+  @apply bg-light;
+}
+
+.about-us-introduction-container {
+  @apply section-container;
+}
+
+.about-us-introduction-heading {
+  @apply uppercase
+  text-2xl
+  lg:text-3xl
+  2xl:text-4xl
+  font-[500]
+  text-gray-600
+  leading-tight
+  tracking-widest
+  mb-3
+  lg:mb-4
+  2xl:mb-5;
+}
+
+.about-us-introduction-description {
+  @apply text-base
+  lg:text-lg
+  2xl:text-xl
+  font-[300]
+  text-gray-500
+  leading-tight
+  tracking-wider
+  mb-6
+  lg:mb-7
+  2xl:mb-8;
+}
+
+.about-us-introduction-box {
+  @apply overflow-hidden
+
+  bg-gray-300
+  border
+  border-gray-400
+  shadow
+  rounded-xl
+  hover:shadow-lg
+  transition
+  
+  grid
+  grid-cols-1
+  md:grid-cols-2;
+}
+
+.about-us-introduction-img-box {
+}
+
+.about-us-introduction-img {
+  @apply w-full;
+}
+
+.about-us-introduction-text-box {
+  @apply flex
+  flex-col
+  items-center
+  justify-center
+  p-6
+  space-y-4;
+}
+
+.about-us-introduction-text {
+  @apply text-gray-800
+  font-[600]
+  text-center
+  leading-normal
+  tracking-widest
+  text-base;
+}
