@@ -50,6 +50,10 @@
 }
 
 .about-us-introduction-img-box {
+  @apply bg-[url('/images/about-us-introduction.webp')]
+  bg-cover
+  min-h-72
+  sm:min-h-96;
 }
 
 .about-us-introduction-img {
@@ -62,14 +66,53 @@
   items-center
   justify-center
   p-6
-  space-y-4;
+  lg:p-8
+  2xl:p-10
+  space-y-4
+  lg:space-y-6
+  2xl:space-y-8;
 }
 
 .about-us-introduction-text {
   @apply text-gray-800
   font-[600]
-  text-center
+  text-justify
   leading-normal
   tracking-widest
-  text-base;
+  text-base
+  lg:text-lg
+  2xl:text-xl;
+}
+
+.about-us-introduction-cta {
+  @apply pt-4;
+}
+
+@media (max-width: 355px) {
+  .about-us-introduction-heading {
+    @apply text-xl
+    mb-1.5;
+  }
+
+  .about-us-introduction-description {
+    @apply text-sm
+    mb-4;
+  }
+
+  .about-us-introduction-box {
+    @apply min-h-60;
+  }
+
+  .about-us-introduction-text-box {
+    @apply p-4
+    space-y-2;
+  }
+
+  .about-us-introduction-text {
+    @apply text-sm;
+  }
+
+  .about-us-introduction-cta {
+    @apply pt-2;
+  }
 }

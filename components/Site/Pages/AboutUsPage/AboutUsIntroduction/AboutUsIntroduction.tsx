@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 // Font
 import { secondaryFont } from '@/public/fonts/fonts';
@@ -23,13 +24,13 @@ const AboutUsIntroduction: FC = () => {
 
         <div className="about-us-introduction-box">
           <div className="about-us-introduction-img-box">
-            <Image
+            {/* <Image
               className="about-us-introduction-img"
               src="/images/about-us-introduction.webp"
               alt=""
               width={1000}
               height={1000}
-            />
+            /> */}
           </div>
           <div className="about-us-introduction-text-box">
             <p className="about-us-introduction-text">
@@ -45,6 +46,14 @@ const AboutUsIntroduction: FC = () => {
               Marketing, ensuring we provide holistic solutions to support your
               business at every stage of growth.
             </p>
+            <div className="about-us-introduction-cta">
+              <Link
+                href="/about-us/services"
+                className={`about-us-introduction-btn btn btn-primary ${secondaryFont.className}`}
+              >
+                Explore Our Services
+              </Link>
+            </div>
           </div>
         </div>
       </div>
