@@ -18,7 +18,7 @@ const AboutUsHero: FC = () => {
           Our Story, Values, and Commitment to Success
         </h2>
         <p className="about-us-hero-description">
-          Kesef BPO is your trusted partner, offering innovative solutions and
+          KESEF BPO is your trusted partner, offering innovative solutions and
           expertise to help your business thrive
         </p>
         <div className="about-us-hero-cta">
