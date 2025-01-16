@@ -42,12 +42,17 @@ const CompanyContactInfo: FC = () => {
           </div>
           <div className="company-contact-phone">
             <FaPhoneAlt className="company-contact-phone-icon" />
-            <p className="company-contact-phone-number">+1 (234) 567-8900</p>
+            <a
+              href="tel:+8801799674891"
+              className="company-contact-phone-number"
+            >
+              +88 017 9967 4891
+            </a>
           </div>
           <div className="company-contact-hours">
             <FaClock className="company-contact-hours-icon" />
             <p className="company-contact-hours-details">
-              Mon-Fri: 9 AM - 5 PM EST
+              Mon-Fri: 8 PM - 5 AM GMT+6
             </p>
           </div>
         </div>
@@ -56,7 +61,8 @@ const CompanyContactInfo: FC = () => {
           <div className="company-location-address">
             <FaMapMarkerAlt className="company-location-address-icon" />
             <p className="company-location-address-details">
-              123 Main Street, Suite 400, City, State, ZIP
+              House # 58, Road # 13, Sector # 12, Uttara Model Town, Dhaka -
+              1230
             </p>
           </div>
           <div className="company-location-map">

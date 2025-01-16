@@ -3,8 +3,7 @@
 }
 
 .company-contact-info-container {
-  @apply section-container
-  text-center;
+  @apply section-container;
 }
 
 .company-contact-info-heading {
@@ -57,6 +56,12 @@
   gap-2
   lg:gap-3
   2xl:gap-4;
+}
+
+.company-contact-email,
+.company-contact-phone {
+  @apply hover:text-success
+  transition;
 }
 
 .company-contact-email-icon,
