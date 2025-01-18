@@ -1,5 +1,4 @@
 import React, { FC } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 // Font
@@ -23,15 +22,7 @@ const AboutUsIntroduction: FC = () => {
         </p>
 
         <div className="about-us-introduction-box">
-          <div className="about-us-introduction-img-box">
-            {/* <Image
-              className="about-us-introduction-img"
-              src="/images/about-us-introduction.webp"
-              alt=""
-              width={1000}
-              height={1000}
-            /> */}
-          </div>
+          <div className="about-us-introduction-img-box"></div>
           <div className="about-us-introduction-text-box">
             <p className="about-us-introduction-text">
               At KESEF BPO, we specialize in delivering comprehensive business
