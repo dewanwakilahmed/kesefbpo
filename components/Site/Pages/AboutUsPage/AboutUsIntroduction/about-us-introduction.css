@@ -56,10 +56,6 @@
   sm:min-h-96;
 }
 
-.about-us-introduction-img {
-  @apply w-full;
-}
-
 .about-us-introduction-text-box {
   @apply flex
   flex-col
