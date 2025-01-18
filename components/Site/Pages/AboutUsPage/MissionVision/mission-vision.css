@@ -1,12 +1,12 @@
-.about-us-mission-vision {
+.mission-vision {
   @apply bg-mutedIndigo;
 }
 
-.about-us-mission-vision-container {
+.mission-vision-container {
   @apply section-container;
 }
 
-.about-us-mission-vision-heading {
+.mission-vision-heading {
   @apply uppercase
   text-2xl
   lg:text-3xl
@@ -20,7 +20,7 @@
   2xl:mb-5;
 }
 
-.about-us-mission-vision-description {
+.mission-vision-description {
   @apply text-base
   lg:text-lg
   2xl:text-xl
@@ -33,7 +33,7 @@
   2xl:mb-8;
 }
 
-.about-us-mission-vision-content {
+.mission-vision-content {
   @apply flex
   flex-col
   md:flex-row
@@ -42,8 +42,8 @@
   2xl:gap-10;
 }
 
-.about-us-mission,
-.about-us-vision {
+.mission,
+.vision {
   @apply bg-cover
   rounded-xl
   shadow-xl
@@ -56,27 +56,27 @@
   overflow-hidden;
 }
 
-.about-us-mission::before,
-.about-us-vision::before {
+.mission::before,
+.vision::before {
   @apply section-overlay;
 }
 
-.about-us-mission {
-  @apply bg-[url('/images/about-us-mission-bg.webp')];
+.mission {
+  @apply bg-[url('/images/mission-bg.webp')];
 }
 
-.about-us-vision {
-  @apply bg-[url('/images/about-us-vision-bg.webp')];
+.vision {
+  @apply bg-[url('/images/vision-bg.webp')];
 }
 
-.about-us-mission-content,
-.about-us-vision-content {
+.mission-content,
+.vision-content {
   @apply relative
   text-white;
 }
 
-.about-us-mission-heading,
-.about-us-vision-heading {
+.mission-heading,
+.vision-heading {
   @apply text-xl
   lg:text-2xl
   2xl:text-3xl
@@ -87,8 +87,8 @@
   2xl:mb-5;
 }
 
-.about-us-mission-statement,
-.about-us-vision-statement {
+.mission-statement,
+.vision-statement {
   @apply text-center
   lg:text-justify
   text-base
@@ -99,33 +99,33 @@
 }
 
 @media (max-width: 355px) {
-  .about-us-mission-vision-heading {
+  .mission-vision-heading {
     @apply text-xl
     mb-1.5;
   }
 
-  .about-us-mission-vision-description {
+  .mission-vision-description {
     @apply text-sm
     mb-4;
   }
 
-  .about-us-mission-vision-content {
+  .mission-vision-content {
     @apply gap-4;
   }
 
-  .about-us-mission,
-  .about-us-vision {
+  .mission,
+  .vision {
     @apply p-4;
   }
 
-  .about-us-mission-heading,
-  .about-us-vision-heading {
+  .mission-heading,
+  .vision-heading {
     @apply text-lg
     mb-1.5;
   }
 
-  .about-us-mission-statement,
-  .about-us-vision-statement {
+  .mission-statement,
+  .vision-statement {
     @apply text-sm;
   }
 }
