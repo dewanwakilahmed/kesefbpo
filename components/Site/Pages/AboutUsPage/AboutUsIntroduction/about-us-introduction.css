@@ -75,7 +75,8 @@
 
 .about-us-introduction-text {
   @apply text-gray-800
-  text-justify
+  text-center
+  lg:text-justify
   leading-normal
   tracking-widest
   text-base
