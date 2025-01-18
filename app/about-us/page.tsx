@@ -7,6 +7,7 @@ import './about-us-page.css';
 import AboutUsHero from '@/components/Site/Pages/AboutUsPage/AboutUsHero/AboutUsHero';
 import AboutUsIntroduction from '@/components/Site/Pages/AboutUsPage/AboutUsIntroduction/AboutUsIntroduction';
 import MissionVision from '@/components/Site/Pages/AboutUsPage/MissionVision/MissionVision';
+import WhyChooseUs from '@/components/Site/Pages/AboutUsPage/WhyChooseUs/WhyChooseUs';
 
 const AboutUsPage: FC = () => {
   return (
@@ -14,6 +15,7 @@ const AboutUsPage: FC = () => {
       <AboutUsHero />
       <AboutUsIntroduction />
       <MissionVision />
+      <WhyChooseUs />
     </main>
   );
 };
