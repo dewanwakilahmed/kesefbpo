@@ -4,7 +4,7 @@
 }
 
 .about-us-hero::before {
-  @apply section-overlay;
+  @apply overlay;
 }
 
 .about-us-hero-container {

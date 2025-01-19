@@ -7,30 +7,13 @@
 }
 
 .about-us-introduction-heading {
-  @apply uppercase
-  text-2xl
-  lg:text-3xl
-  2xl:text-4xl
-  font-[500]
-  text-gray-600
-  leading-tight
-  tracking-widest
-  mb-3
-  lg:mb-4
-  2xl:mb-5;
+  @apply section-heading
+  text-gray-600;
 }
 
 .about-us-introduction-description {
-  @apply text-base
-  lg:text-lg
-  2xl:text-xl
-  font-[300]
-  text-gray-500
-  leading-tight
-  tracking-wider
-  mb-6
-  lg:mb-7
-  2xl:mb-8;
+  @apply section-description
+  text-gray-500;
 }
 
 .about-us-introduction-box {
@@ -72,14 +55,7 @@
 
 .about-us-introduction-text {
   @apply text-gray-900
-  text-center
-  lg:text-left
-  font-[300]
-  leading-tight
-  tracking-wider
-  text-base
-  lg:text-lg
-  2xl:text-xl;
+  section-content-description;
 }
 
 .about-us-introduction-cta {
@@ -87,16 +63,6 @@
 }
 
 @media (max-width: 355px) {
-  .about-us-introduction-heading {
-    @apply text-xl
-    mb-1.5;
-  }
-
-  .about-us-introduction-description {
-    @apply text-sm
-    mb-4;
-  }
-
   .about-us-introduction-box {
     @apply min-h-60;
   }
@@ -104,10 +70,6 @@
   .about-us-introduction-text-box {
     @apply p-4
     space-y-2;
-  }
-
-  .about-us-introduction-text {
-    @apply text-sm;
   }
 
   .about-us-introduction-cta {

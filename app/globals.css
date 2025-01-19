@@ -21,7 +21,7 @@
     2xl:py-28;
   }
 
-  .section-overlay {
+  .overlay {
     content: '';
     @apply absolute
     inset-0 
@@ -35,6 +35,55 @@
     section-content-height
     section-content-width
     text-center;
+  }
+
+  .section-heading {
+    @apply uppercase
+    text-2xl
+    lg:text-3xl
+    2xl:text-4xl
+    font-[500]
+    leading-tight
+    tracking-widest
+    mb-3
+    lg:mb-4
+    2xl:mb-5;
+  }
+
+  .section-description {
+    @apply text-base
+    lg:text-lg
+    2xl:text-xl
+    font-[300]
+    leading-tight
+    tracking-wider
+    mb-6
+    lg:mb-7
+    2xl:mb-8;
+  }
+
+  .section-content-heading {
+    @apply lg:text-left
+    text-lg
+    lg:text-xl
+    2xl:text-2xl
+    font-[600]
+    leading-tight
+    tracking-widest
+    mb-1
+    lg:mb-2
+    2xl:mb-3;
+  }
+
+  .section-content-description {
+    @apply text-center
+    lg:text-left
+    text-base
+    lg:text-lg
+    2xl:text-xl
+    font-[300]
+    leading-tight
+    tracking-wider;
   }
 
   .hero {
@@ -87,14 +136,9 @@
   }
 
   .hero-description {
-    @apply text-gray-300
-    font-[300]
-    tracking-wider
-    leading-tight
-    text-base
-    lg:text-lg
-    2xl:text-xl
-    
+    @apply section-content-description
+    lg:!text-center
+    text-gray-300
     mb-7
     lg:mb-8
     2xl:mb-9;
@@ -119,6 +163,25 @@
       @apply py-5;
     }
 
+    .section-heading {
+      @apply text-xl
+      mb-1.5;
+    }
+
+    .section-description {
+      @apply text-sm
+      mb-4;
+    }
+
+    .section-content-heading {
+      @apply text-base
+      mb-0.5;
+    }
+
+    .section-content-description {
+      @apply text-sm;
+    }
+
     .hero-headline {
       @apply text-3xl
       mb-2;
@@ -130,8 +193,7 @@
     }
 
     .hero-description {
-      @apply text-sm
-      mb-6;
+      @apply mb-6;
     }
 
     .hero-cta {

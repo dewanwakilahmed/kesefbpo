@@ -7,30 +7,13 @@
 }
 
 .mission-vision-heading {
-  @apply uppercase
-  text-2xl
-  lg:text-3xl
-  2xl:text-4xl
-  font-[500]
-  text-gray-600
-  leading-tight
-  tracking-widest
-  mb-3
-  lg:mb-4
-  2xl:mb-5;
+  @apply section-heading
+  text-gray-600;
 }
 
 .mission-vision-description {
-  @apply text-base
-  lg:text-lg
-  2xl:text-xl
-  font-[300]
-  text-gray-500
-  leading-tight
-  tracking-wider
-  mb-6
-  lg:mb-7
-  2xl:mb-8;
+  @apply section-description
+  text-gray-500;
 }
 
 .mission-vision-content {
@@ -58,7 +41,7 @@
 
 .mission::before,
 .vision::before {
-  @apply section-overlay;
+  @apply overlay;
 }
 
 .mission {
@@ -77,40 +60,15 @@
 
 .mission-heading,
 .vision-heading {
-  @apply lg:text-left
-  text-xl
-  lg:text-2xl
-  2xl:text-3xl
-  font-[600]
-  tracking-widest
-  mb-1
-  lg:mb-2
-  2xl:mb-3;
+  @apply section-content-heading;
 }
 
 .mission-statement,
 .vision-statement {
-  @apply text-center
-  lg:text-left
-  text-base
-  lg:text-lg
-  2xl:text-xl
-  font-[300]
-  leading-tight
-  tracking-wider;
+  @apply section-content-description;
 }
 
 @media (max-width: 355px) {
-  .mission-vision-heading {
-    @apply text-xl
-    mb-1.5;
-  }
-
-  .mission-vision-description {
-    @apply text-sm
-    mb-4;
-  }
-
   .mission-vision-content {
     @apply gap-4;
   }
@@ -118,16 +76,5 @@
   .mission,
   .vision {
     @apply p-4;
-  }
-
-  .mission-heading,
-  .vision-heading {
-    @apply text-lg
-    mb-0.5;
-  }
-
-  .mission-statement,
-  .vision-statement {
-    @apply text-sm;
   }
 }

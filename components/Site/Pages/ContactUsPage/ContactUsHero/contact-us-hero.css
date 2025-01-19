@@ -5,7 +5,7 @@
 }
 
 .contact-us-hero::before {
-  @apply section-overlay;
+  @apply overlay;
 }
 
 .contact-us-hero-container {
