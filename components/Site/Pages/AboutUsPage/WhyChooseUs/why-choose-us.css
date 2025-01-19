@@ -47,6 +47,7 @@
   flex
   flex-col
   items-center
+  lg:items-start
 
   rounded-xl
   shadow-inner
@@ -57,30 +58,31 @@
 }
 
 .why-choose-us-point-icon {
-  @apply text-4xl
-  lg:text-5xl
-  2xl:text-6xl
+  @apply text-3xl
+  lg:text-4xl
+  2xl:text-5xl
   text-primary
-  mb-5
-  lg:mb-6
-  2xl:mb-7;
+  mb-4
+  lg:mb-5
+  2xl:mb-6;
 }
 
 .why-choose-us-point-heading {
-  @apply text-xl
-  lg:text-2xl
-  2xl:text-3xl
+  @apply text-lg
+  lg:text-xl
+  2xl:text-2xl
   font-[600]
   text-gray-600
   leading-tight
   tracking-widest
-  mb-3
-  lg:mb-4
-  2xl:mb-5;
+  mb-1
+  lg:mb-2
+  2xl:mb-3;
 }
 
 .why-choose-us-point-text {
-  @apply text-base
+  @apply lg:text-left
+  text-base
   lg:text-lg
   2xl:text-xl
   font-[300]
@@ -109,13 +111,13 @@
   }
 
   .why-choose-us-point-icon {
-    @apply text-3xl
-    mb-4;
+    @apply text-2xl
+    mb-3;
   }
 
   .why-choose-us-point-heading {
-    @apply text-lg
-    mb-2;
+    @apply text-base
+    mb-0.5;
   }
 
   .why-choose-us-point-text {

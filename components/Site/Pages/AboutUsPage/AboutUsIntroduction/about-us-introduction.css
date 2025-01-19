@@ -60,6 +60,7 @@
   @apply flex
   flex-col
   items-center
+  lg:items-start
   justify-center
   p-6
   lg:p-8
@@ -70,11 +71,12 @@
 }
 
 .about-us-introduction-text {
-  @apply text-gray-800
+  @apply text-gray-900
   text-center
-  lg:text-justify
-  leading-normal
-  tracking-widest
+  lg:text-left
+  font-[300]
+  leading-tight
+  tracking-wider
   text-base
   lg:text-lg
   2xl:text-xl;

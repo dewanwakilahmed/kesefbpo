@@ -77,25 +77,27 @@
 
 .mission-heading,
 .vision-heading {
-  @apply text-xl
+  @apply lg:text-left
+  text-xl
   lg:text-2xl
   2xl:text-3xl
   font-[600]
   tracking-widest
-  mb-3
-  lg:mb-4
-  2xl:mb-5;
+  mb-1
+  lg:mb-2
+  2xl:mb-3;
 }
 
 .mission-statement,
 .vision-statement {
   @apply text-center
-  lg:text-justify
+  lg:text-left
   text-base
   lg:text-lg
   2xl:text-xl
-  leading-loose
-  tracking-widest;
+  font-[300]
+  leading-tight
+  tracking-wider;
 }
 
 @media (max-width: 355px) {
@@ -121,7 +123,7 @@
   .mission-heading,
   .vision-heading {
     @apply text-lg
-    mb-1.5;
+    mb-0.5;
   }
 
   .mission-statement,

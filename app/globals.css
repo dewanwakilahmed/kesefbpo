@@ -88,8 +88,8 @@
 
   .hero-description {
     @apply text-gray-300
-    font-[500]
-    tracking-wide
+    font-[300]
+    tracking-wider
     leading-tight
     text-base
     lg:text-lg
