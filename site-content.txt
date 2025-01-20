@@ -84,6 +84,15 @@ Looking ahead, we're excited to gradually expand into IT & Technical Support, We
 2.d.iii.IV.A. Heading: "Client-Centric Approach"
 2.d.iii.IV.B. Text: "Your success is our priority. We take pride in building long-term relationships, driven by transparency, trust, and a shared commitment to achieving your goals"
 
+3. Services Page
+3.a. Services Hero Section
+3.a.i. Headline: "BPO Solutions That Drive Growth"
+3.a.ii. Subheadline: "Streamline, optimize, and thrive with our expert services"
+3.a.iii. Services Hero Description: "Tailored solutions for customer support and back-office management"
+3.a.iv. Services Hero CTA:
+3.a.iv.I. "Get Started" button (links to kesefbpo.com/contact-us)
+3.a.iv.II. "Explore Our Services" button (links to kesefbpo.com/services#services-overview)
+
 6. Contact Us Page
 6.a. Contact Us Hero Section
 6.a.i. Headline: "Let&apos;s Talk Business"

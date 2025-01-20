@@ -1,0 +1,28 @@
+.services-hero {
+  @apply hero
+  bg-[url('/images/services-hero-bg.webp')];
+}
+
+.services-hero::before {
+  @apply overlay;
+}
+
+.services-hero-container {
+  @apply hero-container;
+}
+
+.services-hero-headline {
+  @apply hero-headline;
+}
+
+.services-hero-subheadline {
+  @apply hero-subheadline;
+}
+
+.services-hero-description {
+  @apply hero-description;
+}
+
+.services-hero-cta {
+  @apply hero-cta;
+}
