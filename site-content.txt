@@ -52,20 +52,37 @@ CONTENT:
 Looking ahead, we're excited to gradually expand into IT & Technical Support, Web Development, App Development, and Digital Marketing, ensuring we provide holistic solutions to support your business at every stage of growth."
 2.b.iv. About Us Introduction CTA
 2.b.iv.I. "Explore Our Services" button (links to kesefbpo.com/services)
-2.c. About Us Mission Vision Section
-2.c.i. About Us Mission Vision Heading: "Empowering Businesses, Enriching Communities"
-2.c.ii. About Us Mission Vision Description: "At KESEF BPO, our mission drives us daily, and our vision shapes the
+2.c. Mission Vision Section
+2.c.i. Mission Vision Heading: "Empowering Businesses, Enriching Communities"
+2.c.ii. Mission Vision Description: "At KESEF BPO, our mission drives us daily, and our vision shapes the
           future we’re building—for businesses and the community alike"
-2.c.iii. About Us Mission
-2.c.iii.I. About Us Mission Heading: "Our Mission"
-2.c.iii.II. About Us Mission Statement: "To empower businesses with seamless outsourcing solutions that
+2.c.iii. Mission
+2.c.iii.I. Mission Heading: "Our Mission"
+2.c.iii.II. Mission Statement: "To empower businesses with seamless outsourcing solutions that
                 drive efficiency, innovation, and sustainable growth while
                 fostering a skilled, modern workforce that uplifts the community"
-2.c.iv. About Us Vision
-2.c.iv.I. About Us Vision Heading: "Our Vision"
-2.c.iv.II. About Us Vision Statement: "To become a global leader in Business Process Outsourcing by
+2.c.iv. Vision
+2.c.iv.I. Vision Heading: "Our Vision"
+2.c.iv.II. Vision Statement: "To become a global leader in Business Process Outsourcing by
                 expanding our services and cultivating a dynamic workforce that
                 strengthens businesses and enriches the communities we serve"
+2.d. Why Choose Us Section
+2.d.i.  Why Choose Us Heading: "Discover the KESEF BPO Advantage"
+2.d.ii. Why Choose Us Description: "At KESEF BPO, we go beyond traditional outsourcing to become a true
+          partner in your growth journey"
+2.d.iii. Why Choose Us Points
+2.d.iii.I. Point 1
+2.d.iii.I.A. Heading: "Tailored Solutions for Every Business"
+2.d.iii.I.B. Text: "We understand that no two businesses are alike. That’s why our services are customized to meet the unique needs of your organization, ensuring maximum efficiency and impact"
+2.d.iii.II. Point 2
+2.d.iii.II.A. Heading: "Unmatched Expertise and Commitment"
+2.d.iii.II.B. Text: "Our team of dedicated professionals combines industry experience with a passion for excellence. We work as an extension of your team, delivering results you can count on"
+2.d.iii.III. Point 3
+2.d.iii.III.A. Heading: "Future-Ready Services"
+2.d.iii.III.B. Text: "From lead generation to back-office support, we offer comprehensive solutions that grow with your business. With plans to expand into IT support, digital marketing, and more, we ensure you’re always ahead in a competitive market"
+2.d.iii.IV. Point 4
+2.d.iii.IV.A. Heading: "Client-Centric Approach"
+2.d.iii.IV.B. Text: "Your success is our priority. We take pride in building long-term relationships, driven by transparency, trust, and a shared commitment to achieving your goals"
 
 6. Contact Us Page
 6.a. Contact Us Hero Section
