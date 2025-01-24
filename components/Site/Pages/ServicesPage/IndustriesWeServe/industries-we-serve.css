@@ -1,0 +1,80 @@
+.industries-we-serve {
+  @apply bg-mutedIndigo;
+}
+
+.industries-we-serve-container {
+  @apply section-container;
+}
+
+.industries-we-serve-heading {
+  @apply section-heading
+  text-gray-600;
+}
+
+.industries-we-serve-description {
+  @apply section-description
+  text-gray-500;
+}
+
+.industries-we-serve-content {
+  @apply flex
+  flex-col
+  md:flex-row
+  gap-6
+  lg:gap-8
+  2xl:gap-10;
+}
+
+.healthcare,
+.technology-it {
+  @apply bg-cover
+  rounded-xl
+  shadow-xl
+  hover:shadow-2xl
+  transition
+  p-6
+  lg:p-8
+  2xl:p-10
+  relative
+  overflow-hidden;
+}
+
+.healthcare::before,
+.technology-it::before {
+  @apply overlay;
+}
+
+.healthcare {
+  @apply bg-[url('/images/healthcare-bg.webp')];
+}
+
+.technology-it {
+  @apply bg-[url('/images/technology-it-bg.webp')];
+}
+
+.healthcare-content,
+.technology-it-content {
+  @apply relative
+  text-white;
+}
+
+.healthcare-heading,
+.technology-it-heading {
+  @apply section-content-heading;
+}
+
+.healthcare-statement,
+.technology-it-statement {
+  @apply section-content-description;
+}
+
+@media (max-width: 355px) {
+  .industries-we-serve-content {
+    @apply gap-4;
+  }
+
+  .healthcare,
+  .technology-it {
+    @apply p-4;
+  }
+}

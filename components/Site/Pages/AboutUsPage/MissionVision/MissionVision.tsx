@@ -6,7 +6,7 @@ import { secondaryFont } from '@/public/fonts/fonts';
 // CSS
 import './mission-vision.css';
 
-const AboutUsMissionVision: FC = () => {
+const MissionVision: FC = () => {
   return (
     <section className="mission-vision">
       <div className="mission-vision-container">
@@ -44,4 +44,4 @@ const AboutUsMissionVision: FC = () => {
   );
 };
 
-export default AboutUsMissionVision;
+export default MissionVision;
