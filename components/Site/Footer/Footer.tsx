@@ -186,7 +186,7 @@ const Footer: FC = () => {
           </p>
         </div>
 
-        <div className="footer-links">
+        {/* <div className="footer-links">
           <div className="footer-quick-links">
             <h4 className="footer-quick-links-heading">Quick Links</h4>
             <ul className="footer-quick-links-list">
@@ -273,7 +273,7 @@ const Footer: FC = () => {
               ))}
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div className="footer-copyright">
           <p className="footer-copyright-text">

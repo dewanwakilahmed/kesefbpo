@@ -36,9 +36,9 @@ const Header: FC = () => {
             <li className="nav-link">
               <Link href="/services">Services</Link>
             </li>
-            <li className="nav-link">
+            {/* <li className="nav-link">
               <Link href="/industries">Industries</Link>
-            </li>
+            </li> */}
             <li className="nav-link">
               <Link href="/careers">Careers</Link>
             </li>
@@ -84,11 +84,11 @@ const Header: FC = () => {
                   Services
                 </Link>
               </li>
-              <li className="mobile-nav-link">
+              {/* <li className="mobile-nav-link">
                 <Link href="/industries" onClick={toggleMobileMenu}>
                   Industries
                 </Link>
-              </li>
+              </li> */}
               <li className="mobile-nav-link">
                 <Link href="/careers" onClick={toggleMobileMenu}>
                   Careers
