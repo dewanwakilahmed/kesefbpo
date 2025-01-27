@@ -20,6 +20,14 @@ SECTIONS:
 2. About Us Page
 2.a. About Us Hero
 2.b. About Us Introduction
+2.c. Mission Vision
+2.d. Why Choose Us
+
+3. Services Page
+3.a. Services Hero
+3.b. Services Overview
+3.c. Industries We Serve
+3.d. Testimonials
 
 6. Contact Us Page
 6.a. Contact Us Hero
@@ -92,6 +100,57 @@ Looking ahead, we're excited to gradually expand into IT & Technical Support, We
 3.a.iv. Services Hero CTA:
 3.a.iv.I. "Get Started" button (links to kesefbpo.com/contact-us)
 3.a.iv.II. "Explore Our Services" button (links to kesefbpo.com/services#services-overview)
+3.b. Services Overview Section
+3.b.i.  Services Overview Heading: "Comprehensive BPO Services for Your Success"
+3.b.ii. Services Overview Description: "At KESEF BPO, we provide tailored outsourcing solutions to meet the
+          unique needs of your business"
+3.b.iii. Services
+3.b.iii.I. Service 1
+3.b.iii.I.A. Heading: "Telemarketing & Sales"
+3.b.iii.I.B. Description: "Engage prospects, nurture leads, and close deals effectively with our skilled telemarketing team, trained to drive your sales growth"
+3.b.iii.II. Service 2
+3.b.iii.II.A. Heading: "Lead Generation"
+3.b.iii.II.B. Description: "We identify and qualify high-potential leads, ensuring your sales pipeline stays full and your team focuses on conversions"
+3.b.iii.III. Service 3
+3.b.iii.III.A. Heading: "Customer Support"
+3.b.iii.III.B. Description: "From 24/7 support to multi-channel communication, our customer support team ensures your clients receive prompt and professional assistance"
+3.b.iii.IV. Service 4
+3.b.iii.IV.A. Heading: "Web Development"
+3.b.iii.IV.B. Description: "From dynamic websites to custom applications, we build digital solutions that elevate your online presence and drive engagement"
+3.c. Industries We Serve Section
+3.c.i. Industries We Serve Heading: "Partnering with Industries That Drive Progress"
+3.c.ii. Industries We Serve Description: "At KESEF BPO, we deliver industry-focused solutions that empower
+          businesses to excel"
+3.c.iii. Industries We Serve
+3.c.iii.I. Industry 1
+3.c.iii.I.A. Heading: "Healthcare"
+3.c.iii.I.B. Description: "Streamline medical billing, patient support, and appointment
+                scheduling with our reliable and secure services"
+3.c.iii.II. Industry 2
+3.c.iii.II.A. Heading: "Technology & IT"
+3.c.iii.II.B. Description: "Enhance your tech services with our support for software
+                development, technical assistance, and IT infrastructure
+                management"
+3.d. Testimonials Section
+3.d.i.  Testimonials Heading: "What Our Clients Say"
+3.d.ii. Testimonials Description: "Hear how KESEF BPO has empowered businesses to achieve their goals"
+3.d.iii. Testimonials
+3.d.iii.I. Testimonial 1
+3.d.iii.I.A. Quote: "KESEF BPO transformed the way we handle customer inquiries. Their team is professional, efficient, and always delivers results!"
+3.d.iii.I.B. Author: "Emily R."
+3.d.iii.I.C. Role: "E-commerce Business Owner"
+3.d.iii.II. Testimonial 2
+3.d.iii.II.A. Quote: "Thanks to KESEF BPO’s lead generation services, our sales pipeline is always full. Their expertise has been a game-changer for us"
+3.d.iii.II.B. Author: "Mark L."
+3.d.iii.II.C. Role: "Sales Manager, Real Estate"
+3.d.iii.III. Testimonial 3
+3.d.iii.III.A. Quote: "We partnered with KESEF BPO for web development, and they delivered beyond our expectations. Our online presence has never been stronger!"
+3.d.iii.III.B. Author: "Sophia T."
+3.d.iii.III.C. Role: "IT Startup Founder"
+3.d.iii.IV. Testimonial 4
+3.d.iii.IV.A. Quote: "The level of customer support provided by KESEF BPO is outstanding. Our clients consistently praise the responsiveness and professionalism of their team."
+3.d.iii.IV.B. Author: "Daniel H."
+3.d.iii.IV.C. Role: "Healthcare Services Manager"
 
 6. Contact Us Page
 6.a. Contact Us Hero Section

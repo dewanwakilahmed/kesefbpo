@@ -63,8 +63,8 @@
   @apply section-content-heading;
 }
 
-.healthcare-statement,
-.technology-it-statement {
+.healthcare-description,
+.technology-it-description {
   @apply section-content-description;
 }
 

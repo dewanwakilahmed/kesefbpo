@@ -23,7 +23,7 @@ const IndustriesWeServe: FC = () => {
           <div className="healthcare">
             <div className="healthcare-content">
               <h3 className="healthcare-heading">Healthcare</h3>
-              <p className="healthcare-statement">
+              <p className="healthcare-description">
                 Streamline medical billing, patient support, and appointment
                 scheduling with our reliable and secure services
               </p>
@@ -32,7 +32,7 @@ const IndustriesWeServe: FC = () => {
           <div className="technology-it">
             <div className="technology-it-content">
               <h3 className="technology-it-heading">Technology & IT</h3>
-              <p className="technology-it-statement">
+              <p className="technology-it-description">
                 Enhance your tech services with our support for software
                 development, technical assistance, and IT infrastructure
                 management
