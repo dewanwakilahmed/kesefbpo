@@ -35,9 +35,9 @@
   rounded-xl
   shadow-inner
   
-  p-6
-  lg:p-8
-  2xl:p-10;
+  p-4
+  lg:p-6
+  2xl:p-8;
 }
 
 .service-icon {
@@ -66,7 +66,7 @@
   }
 
   .service {
-    @apply p-4;
+    @apply p-2;
   }
 
   .service-icon {

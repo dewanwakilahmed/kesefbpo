@@ -7,7 +7,7 @@ import './services-page.css';
 import ServicesHero from '@/components/Site/Pages/ServicesPage/ServicesHero/ServicesHero';
 import ServicesOverview from '@/components/Site/Pages/ServicesPage/ServicesOverview/ServicesOverview';
 import IndustriesWeServe from '@/components/Site/Pages/ServicesPage/IndustriesWeServe/IndustriesWeServe';
-import WhyChooseUs from '@/components/Site/Pages/AboutUsPage/WhyChooseUs/WhyChooseUs';
+import Testimonials from '@/components/Site/Pages/ServicesPage/Testimonials/Testimonials';
 
 const ServicesPage: FC = () => {
   return (
@@ -15,7 +15,7 @@ const ServicesPage: FC = () => {
       <ServicesHero />
       <ServicesOverview />
       <IndustriesWeServe />
-      <WhyChooseUs />
+      <Testimonials />
     </main>
   );
 };

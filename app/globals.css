@@ -68,7 +68,6 @@
     lg:text-xl
     2xl:text-2xl
     font-[600]
-    leading-tight
     tracking-widest
     mb-1
     lg:mb-2
@@ -82,7 +81,6 @@
     lg:text-lg
     2xl:text-xl
     font-[300]
-    leading-tight
     tracking-wider;
   }
 

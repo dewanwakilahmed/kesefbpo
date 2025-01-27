@@ -32,9 +32,9 @@
   shadow-xl
   hover:shadow-2xl
   transition
-  p-6
-  lg:p-8
-  2xl:p-10
+  p-4
+  lg:p-6
+  2xl:p-8
   relative
   overflow-hidden;
 }
@@ -75,6 +75,6 @@
 
   .mission,
   .vision {
-    @apply p-4;
+    @apply p-2;
   }
 }
