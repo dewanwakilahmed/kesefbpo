@@ -20,12 +20,10 @@
   @apply overflow-hidden
 
   bg-gray-200
+  shadow-md
+  rounded-xl
   border
   border-gray-300
-  shadow
-  rounded-xl
-  hover:shadow-lg
-  transition
   
   grid
   grid-cols-1
@@ -59,7 +57,12 @@
 }
 
 .about-us-introduction-cta {
-  @apply pt-4;
+  @apply pt-4
+  lg:pt-5
+  2xl:pt-6
+  pb-2
+  lg:pb-2.5
+  2xl:pb-3;
 }
 
 @media (max-width: 355px) {
@@ -73,6 +76,7 @@
   }
 
   .about-us-introduction-cta {
-    @apply pt-2;
+    @apply pt-2
+    pb-1;
   }
 }

@@ -1,0 +1,80 @@
+.about-us-preview {
+  @apply bg-light
+  grid
+  grid-cols-1
+  md:grid-cols-2;
+}
+
+.about-us-preview-img-container {
+  @apply bg-[url('/images/about-us-preview.webp')]
+  bg-cover
+  min-h-60
+  sm:min-h-80;
+}
+
+.about-us-preview-text-container {
+  @apply section-container
+  lg:text-left;
+}
+
+.about-us-preview-heading {
+  @apply section-heading
+  text-gray-600;
+}
+
+.about-us-preview-description {
+  @apply section-description
+  text-gray-500;
+}
+
+.about-us-preview-text-box {
+  @apply bg-gray-200
+  shadow-md
+  rounded-xl
+  flex
+  flex-col
+  items-center
+  lg:items-start
+  justify-center
+  p-4
+  lg:p-6
+  2xl:p-8
+  space-y-4
+  lg:space-y-6
+  2xl:space-y-8
+  border
+  border-gray-300;
+}
+
+.about-us-preview-text {
+  @apply text-gray-900
+  section-content-description;
+}
+
+.about-us-preview-cta {
+  @apply pt-4
+  lg:pt-5
+  2xl:pt-6
+  pb-2
+  lg:pb-2.5
+  2xl:pb-3;
+}
+
+.about-us-preview-btn {
+}
+
+@media (max-width: 355px) {
+  .about-us-preview-img-container {
+    @apply min-h-56;
+  }
+
+  .about-us-preview-text-box {
+    @apply p-2
+    space-y-2;
+  }
+
+  .about-us-preview-btn {
+    @apply pt-2
+    pb-1;
+  }
+}

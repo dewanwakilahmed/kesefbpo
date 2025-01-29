@@ -47,7 +47,7 @@ const Testimonials: FC = () => {
           What Our Clients Say
         </h2>
         <p className="testimonials-description">
-          Hear how KESEF BPO has empowered businesses to achieve their goals.
+          Hear how KESEF BPO has empowered businesses to achieve their goals
         </p>
         <div className="testimonials-content">
           {testimonialsContent.map((testimonial, index) => (
