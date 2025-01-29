@@ -33,7 +33,7 @@ const AboutUsPreview: FC = () => {
           <div className="about-us-preview-cta">
             <Link
               href="/about-us"
-              className={`about-us-preview-btn btn btn-primary ${secondaryFont.className}`}
+              className={`about-us-preview-btn btn btn-secondary ${secondaryFont.className}`}
             >
               Learn More About Us
             </Link>

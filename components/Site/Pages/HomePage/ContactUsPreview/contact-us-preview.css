@@ -1,12 +1,12 @@
-.about-us-preview {
-  @apply bg-light
+.contact-us-preview {
+  @apply bg-deepIndigo
   grid
   grid-cols-1
   md:grid-cols-2;
 }
 
-.about-us-preview-img-container {
-  @apply bg-[url('/images/about-us-preview.webp')]
+.contact-us-preview-img-container {
+  @apply bg-[url('/images/contact-us-preview.webp')]
   bg-cover
   min-h-60
   sm:min-h-80
@@ -14,26 +14,26 @@
   md:order-1;
 }
 
-.about-us-preview-text-container {
+.contact-us-preview-text-container {
   @apply section-container
   lg:text-left
   order-1
   md:order-2;
 }
 
-.about-us-preview-heading {
+.contact-us-preview-heading {
   @apply section-heading
-  text-gray-600;
+  text-gray-300;
 }
 
-.about-us-preview-description {
+.contact-us-preview-description {
   @apply section-description
-  text-gray-500;
+  text-gray-400;
 }
 
-.about-us-preview-text-box {
-  @apply bg-gray-200
-  shadow-md
+.contact-us-preview-text-box {
+  @apply bg-light
+  shadow-inner
   rounded-xl
   flex
   flex-col
@@ -45,17 +45,15 @@
   2xl:p-8
   space-y-4
   lg:space-y-6
-  2xl:space-y-8
-  border
-  border-gray-300;
+  2xl:space-y-8;
 }
 
-.about-us-preview-text {
-  @apply text-gray-900
+.contact-us-preview-text {
+  @apply text-gray-500
   section-content-description;
 }
 
-.about-us-preview-cta {
+.contact-us-preview-cta {
   @apply pt-4
   lg:pt-5
   2xl:pt-6
@@ -64,20 +62,20 @@
   2xl:pb-3;
 }
 
-.about-us-preview-btn {
+.contact-us-preview-btn {
 }
 
 @media (max-width: 355px) {
-  .about-us-preview-img-container {
+  .contact-us-preview-img-container {
     @apply min-h-56;
   }
 
-  .about-us-preview-text-box {
+  .contact-us-preview-text-box {
     @apply p-2
     space-y-2;
   }
 
-  .about-us-preview-btn {
+  .contact-us-preview-btn {
     @apply pt-2
     pb-1;
   }

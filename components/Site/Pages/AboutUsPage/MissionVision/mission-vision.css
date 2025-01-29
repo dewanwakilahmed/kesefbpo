@@ -29,9 +29,7 @@
 .vision {
   @apply bg-cover
   rounded-xl
-  shadow-xl
-  hover:shadow-2xl
-  transition
+  shadow-md
   p-4
   lg:p-6
   2xl:p-8
