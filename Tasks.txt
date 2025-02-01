@@ -1,0 +1,46 @@
+Done
+- Created Site Content Txt file and added Home Hero, Contact Us Hero, Contact Us Form and Company Contact Info Sections' content
+- Reviewed global styles
+- Reviewed Home Hero and Contact Us Hero Sections
+- Optimized Contact Us Hero Background Image
+- Reviewed Site Content
+- Swapped primaryFont & secondaryFont
+- Created About Us Hero Section
+- Added About Us Hero Section content to Site Content Txt file
+- Reviewed Company Logo Component
+- Reviewed Header
+- Researched About Us Page sections
+- Reviewed Footer
+- Optimized About Us Hero Background Image
+- Reviewed Contact Us Form Section
+- Reviewed Company Contact Info Section
+- Created About Us Introduction Section
+- Created About Us Mission & Vision Section
+- Reviewed About Us Mission & Vision Section
+- Reviewed About Us Introduction Section
+- Created Why Choose Us Section
+- Grouped Reusable CSS
+- Reviewed Grouped Reusable CSS
+- Reviewed Why Choose Us Section
+- Checked Mobile Responsiveness of all the sections done so far
+- Researched Services Page sections
+- Created Services Hero Section
+- Added Services Hero Content to Site Content
+- Reviewed Services Hero Section
+- Created Services Overview Section
+- Reviewed Services Overview Section
+- Created Industries We Serve Section
+- Created Testimonials Section
+- Reviewed Industries We Serve Section
+- Reviewed Testimonials Section
+- Created About Us Preview Section
+- Reviewed About us Preview Section
+- Created Services Preview Section
+- Created Contact Us Preview Section
+
+To Do
+- Review Services Preview Section
+- Review Contact Us Preview Section
+- Fix Safari Mobile bottom address bar color
+- Add Website Title and Meta Tags
+- Research different ways of presenting content in different sections of a website

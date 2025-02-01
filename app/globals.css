@@ -200,6 +200,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .body {
   @apply bg-[url('/images/body-bg.svg')] 
   bg-fixed 

@@ -39,8 +39,8 @@ const AboutUsIntroduction: FC = () => {
             </p>
             <div className="about-us-introduction-cta">
               <Link
-                href="/about-us/services"
-                className={`about-us-introduction-btn btn btn-primary ${secondaryFont.className}`}
+                href="/services"
+                className={`about-us-introduction-btn btn btn-secondary ${secondaryFont.className}`}
               >
                 Explore Our Services
               </Link>

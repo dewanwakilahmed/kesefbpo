@@ -174,8 +174,8 @@ const Footer: FC = () => {
           </div>
           <p className="footer-phone">
             <RiPhoneFill className="footer-phone-icon" />
-            <a className="footer-phone-number" href="tel:+12345678900">
-              +1 (234) 567-8900
+            <a className="footer-phone-number" href="tel:+8801799674891">
+              +88 (017) 9967 4891
             </a>
           </p>
           <p className="footer-email">

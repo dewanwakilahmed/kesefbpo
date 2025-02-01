@@ -22,17 +22,29 @@ const AboutUsHero: FC = () => {
           expertise to help your business thrive
         </p>
         <div className="about-us-hero-cta">
-          <Link
+          {/* <Link
             href="/about-us/meet-the-team"
             className={`about-us-hero-btn btn btn-primary ${secondaryFont.className}`}
           >
-            Meet the Team
+            Explore
           </Link>
           <Link
             href="/about-us/company-culture"
             className={`about-us-hero-btn btn btn-secondary ${secondaryFont.className}`}
           >
             Company Culture
+          </Link> */}
+          <Link
+            href="/contact-us"
+            className={`home-hero-btn btn btn-primary ${secondaryFont.className}`}
+          >
+            Get Started
+          </Link>
+          <Link
+            href="/services"
+            className={`home-hero-btn btn btn-secondary ${secondaryFont.className}`}
+          >
+            Explore Our Services
           </Link>
         </div>
       </div>

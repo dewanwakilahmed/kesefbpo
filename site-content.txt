@@ -1,4 +1,4 @@
-Kesef BPO is a Business Process Outsourcing Project.
+Kesef BPO is a Business Process Outsourcing Company.
 
 Website Content Structure
 -------------------------
@@ -44,6 +44,19 @@ CONTENT:
 1.a.iv. Home Hero CTA:
 1.a.iv.I. "Get Started" button (links to kesefbpo.com/contact-us)
 1.a.iv.II. "Explore Our Services" button (links to kesefbpo.com/services)
+1.b. About Us Preview Section
+1.b.i. About Us Preview Heading: "Who We Are"
+1.b.ii. About Us Preview Description: "At KESEF BPO, we believe that great partnerships are built on trust,
+          expertise, and a commitment to excellence"
+1.b.iii. About Us Preview Content
+1.b.iii.I. About Us Preview Text: "At KESEF BPO, We focus on simplifying business processes so you can
+            focus on what truly matters—growth and innovation."
+1.b.iii.II. About Us Preview Text: "Learn more about our mission-driven approach, the values that guide
+            us, and the team dedicated to helping your business thrive. KESEF
+            BPO is more than just outsourcing; we&apos;re your partners in
+            success."
+1.b.iii.III. About Us Preview CTA:
+1.b.iii.III.A. "Learn More About Us" button (links to kesefbpo.com/about-us)
 
 2. About Us Page
 2.a. About Us Hero Section

@@ -38,10 +38,10 @@ const Header: FC = () => {
             </li>
             {/* <li className="nav-link">
               <Link href="/industries">Industries</Link>
-            </li> */}
+            </li>
             <li className="nav-link">
               <Link href="/careers">Careers</Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/contact-us"
@@ -88,12 +88,12 @@ const Header: FC = () => {
                 <Link href="/industries" onClick={toggleMobileMenu}>
                   Industries
                 </Link>
-              </li> */}
+              </li>
               <li className="mobile-nav-link">
                 <Link href="/careers" onClick={toggleMobileMenu}>
                   Careers
                 </Link>
-              </li>
+              </li> */}
               <li className="mobile-nav-link mobile-nav-cta">
                 <Link
                   href="/contact-us"
